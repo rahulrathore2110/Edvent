@@ -1,5 +1,5 @@
 /* EDVENT site interactions. Replace with your actual WhatsApp Business number. */
-const WHATSAPP_NUMBER = "91XXXXXXXXXX";
+const WHATSAPP_NUMBER = "917217853572";
 document.addEventListener("DOMContentLoaded",()=>{
  const toggle=document.querySelector('.menu-toggle'),nav=document.querySelector('#primary-nav');
  if(toggle&&nav){toggle.addEventListener('click',()=>{const open=toggle.getAttribute('aria-expanded')==='true';toggle.setAttribute('aria-expanded',String(!open));nav.classList.toggle('open',!open)});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');toggle.setAttribute('aria-expanded','false')}));}
