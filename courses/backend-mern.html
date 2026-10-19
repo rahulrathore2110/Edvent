@@ -1,0 +1,1969 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Backend Development: MERN Syllabus | EDVENT</title><meta name="description" content="Learn Node.js, HTTP, REST APIs, Express, MongoDB, Mongoose, authentication, security, testing and deployment. Explore the syllabus and download the EDVENT course document."><meta name="theme-color" content="#08275b"><link rel="canonical" href="https://edventindia.com/courses/backend-mern.html"><link rel="stylesheet" href="../styles.css"><link rel="icon" href="../assets/favicon.svg" type="image/svg+xml"><script src="../script.js" defer></script></head>
+<body><a class="skip-link" href="#main">Skip to content</a><header class="site-header"><div class="container nav-wrap"><a class="brand" href="../index.html"><img src="../assets/edvent-logo.png" alt="EDVENT — Computer & Technology Institute" class="brand-logo"><span class="brand-copy"><strong>EDVENT</strong><small>COMPUTER & TECHNOLOGY INSTITUTE</small></span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation"><span></span><span></span></button><nav id="primary-nav" class="primary-nav"><a href="../index.html#courses">All courses</a><a href="../index.html#about">Why EDVENT</a><a href="../index.html#admissions">Admissions</a><a class="btn btn-small btn-primary" href="../index.html#admissions">Enquire now ↗</a></nav></div></header>
+<main id="main"><section class="course-hero"><div class="container"><div class="eyebrow">WEB DEVELOPMENT · EDVENT SYLLABUS</div><h1>Backend Development: MERN</h1><p>Learn Node.js, HTTP, REST APIs, Express, MongoDB, Mongoose, authentication, security, testing and deployment.</p><div class="hero-actions"><a class="btn btn-primary" href="../downloads/backend-mern-syllabus.docx" download>Download syllabus <span>↓</span></a><a class="btn btn-ghost" href="../index.html#admissions">Enquire about this course ↗</a></div><p class="syllabus-note">The syllabus below is transcribed from the uploaded course document. Download the original Word file for its original formatting and embedded visuals.</p></div></section><section class="section syllabus-section"><div class="container"><div class="syllabus-layout"><aside class="syllabus-sidebar"><h2>On this page</h2><p>Use your browser's Find command to locate a topic, or read the syllabus from top to bottom.</p><a class="btn btn-primary download-wide" href="../downloads/backend-mern-syllabus.docx" download>Download .docx ↓</a><a class="text-link" href="../index.html#courses">← Browse all courses</a></aside><article class="syllabus-content"><p>EDVENT — Complete Backend Development Master Syllabus</p>
+<p>Node.js + Express.js + MongoDB | Beginner to Advanced</p>
+<p>This curriculum is structured for teaching students how to build real-world backend applications, starting from programming fundamentals and HTTP concepts and progressing to REST APIs, database design, authentication, security, testing, deployment, and production-grade architecture.</p>
+<p>The goal is not just to teach students how to write backend code. By the end, they should be able to design, build, test, secure, deploy, and maintain a complete backend for a MERN-stack application.</p>
+<h3>1. Course overview</h3>
+<p>Node.js — JavaScript runtime</p>
+<p>Execute JavaScript outside the browser; handle files, processes, asynchronous operations, networking, and backend services.</p>
+<p>Express.js — Web framework</p>
+<p>Build HTTP servers, REST APIs, middleware pipelines, routing, validation, and error-handling systems.</p>
+<p>MongoDB — NoSQL database</p>
+<p>Design collections and documents, query data, model relationships, create indexes, use aggregation, and manage database performance.</p>
+<div class="table-scroll"><table>
+<tr>
+<th>Course detail</th>
+<th>Recommendation</th>
+</tr>
+<tr>
+<td>Target audience</td>
+<td>Beginners learning backend development</td>
+</tr>
+<tr>
+<td>Prerequisites</td>
+<td>HTML, CSS, JavaScript fundamentals</td>
+</tr>
+<tr>
+<td>Teaching approach</td>
+<td>Theory + live coding + assignments + projects</td>
+</tr>
+<tr>
+<td>Suggested duration</td>
+<td>20–28 weeks part-time, or 12–16 weeks intensive</td>
+</tr>
+<tr>
+<td>Final outcome</td>
+<td>Production-oriented backend developer foundation</td>
+</tr>
+<tr>
+<td>Main API style</td>
+<td>REST API</td>
+</tr>
+<tr>
+<td>Primary stack</td>
+<td>Node.js, Express.js, MongoDB, Mongoose</td>
+</tr>
+<tr>
+<td>Supporting tools</td>
+<td>Git, GitHub, Postman, npm, environment variables, testing tools</td>
+</tr>
+</table></div>
+<p>Recommended teaching order: JavaScript for backend → Node.js → HTTP and REST → Express.js → MongoDB → Mongoose → authentication and security → testing → deployment → advanced architecture.</p>
+<p>Use a supported, current Node.js LTS release and compatible versions of Express and MongoDB. Pin dependency versions in course projects and check the official documentation when APIs or defaults change.</p>
+<h3>Level 0 — Prerequisites and backend fundamentals</h3>
+<p>Module 1. JavaScript prerequisites for backend development</p>
+<p>Students should understand the following JavaScript concepts before beginning Node.js.</p>
+<h3>1.1 Core JavaScript</h3>
+<p>Variables: let, const, and scope</p>
+<p>Primitive and reference types</p>
+<p>Operators and expressions</p>
+<p>Conditional statements</p>
+<p>Loops and iteration</p>
+<p>Functions, arrow functions, parameters, and return values</p>
+<p>Arrays and objects</p>
+<p>Array methods: map(), filter(), find(), reduce(), some(), every()</p>
+<p>Object destructuring and array destructuring</p>
+<p>Spread and rest syntax</p>
+<p>Template literals</p>
+<p>Optional chaining and nullish coalescing</p>
+<p>Modules and imports/exports</p>
+<h3>1.2 Advanced JavaScript concepts</h3>
+<p>Lexical scope and closures</p>
+<p>Higher-order functions</p>
+<p>Callback functions</p>
+<p>this and binding</p>
+<p>Prototypes and classes</p>
+<p>Error handling with try, catch, and finally</p>
+<p>JSON parsing and serialization</p>
+<p>Promises</p>
+<p>async and await</p>
+<p>Promise chaining and error propagation</p>
+<p>Event loop fundamentals</p>
+<p>Shallow versus deep copying</p>
+<p>Basic immutability principles</p>
+<h3>1.3 Practical exercises</h3>
+<p>Create a student records processor using arrays and objects.</p>
+<p>Read, filter, and summarize JSON data.</p>
+<p>Write asynchronous functions using promises.</p>
+<p>Build a small validation utility.</p>
+<p>Create reusable modules and import them into another file.</p>
+<p>Module outcome: Students can write modular, asynchronous JavaScript and understand the syntax used throughout the backend stack.</p>
+<p>Module 2. How the web and backend work</p>
+<h3>2.1 Client-server architecture</h3>
+<p>Frontend versus backend</p>
+<p>Browser, client, server, and database roles</p>
+<p>Request-response lifecycle</p>
+<p>Web servers and application servers</p>
+<p>Static versus dynamic content</p>
+<p>APIs and service communication</p>
+<p>Monolithic versus distributed applications</p>
+<h3>2.2 HTTP and HTTPS</h3>
+<p>HTTP request structure</p>
+<p>HTTP response structure</p>
+<p>Methods: GET, POST, PUT, PATCH, DELETE, OPTIONS, HEAD</p>
+<p>Headers and request bodies</p>
+<p>URL, path, query parameters, and fragments</p>
+<p>Common status codes: 200, 201, 204, 301, 400, 401, 403, 404, 409, 422, 429, 500, 503</p>
+<p>Cookies and sessions</p>
+<p>HTTPS and TLS basics</p>
+<p>Content types and JSON</p>
+<p>CORS and browser-origin rules</p>
+<p>Idempotency and safe HTTP methods</p>
+<p>HTTP caching fundamentals</p>
+<h3>2.3 REST API fundamentals</h3>
+<p>Resources and resource naming</p>
+<p>CRUD operations</p>
+<p>REST conventions</p>
+<p>Stateless requests</p>
+<p>Filtering, sorting, pagination, and searching</p>
+<p>Request validation</p>
+<p>Consistent response structures</p>
+<p>API versioning</p>
+<p>API documentation</p>
+<p>REST versus GraphQL and RPC: conceptual comparison</p>
+<h3>2.4 Practical exercises</h3>
+<p>Inspect requests and responses in browser developer tools.</p>
+<p>Test public APIs using Postman.</p>
+<p>Design endpoints for a student management application.</p>
+<p>Map CRUD operations to HTTP methods and status codes.</p>
+<h3>Level 1 — Node.js fundamentals</h3>
+<p>Module 3. Introduction to Node.js</p>
+<h3>3.1 Node.js architecture</h3>
+<p>What Node.js is and is not</p>
+<p>JavaScript runtime versus programming language</p>
+<p>V8 JavaScript engine</p>
+<p>Node.js runtime architecture</p>
+<p>Event-driven programming</p>
+<p>Non-blocking I/O</p>
+<p>Single JavaScript thread and background work</p>
+<p>libuv and the thread pool</p>
+<p>Concurrency versus parallelism</p>
+<p>CPU-bound versus I/O-bound tasks</p>
+<p>When Node.js is a good fit</p>
+<p>Limitations and when to consider other approaches</p>
+<h3>3.2 Installation and development environment</h3>
+<p>Installing a Node.js LTS version</p>
+<p>Using node --version and npm --version</p>
+<p>Node.js REPL</p>
+<p>Running JavaScript files</p>
+<p>VS Code setup</p>
+<p>Terminal and command-line basics</p>
+<p>Using node --watch where supported</p>
+<p>Environment management with a version manager</p>
+<p>Project initialization with npm init</p>
+<p>Understanding package.json and package-lock.json</p>
+<h3>3.3 First Node.js application</h3>
+<p>Running a script</p>
+<p>Importing core modules</p>
+<p>Reading command-line arguments</p>
+<p>Process exit codes</p>
+<p>Writing output to the terminal</p>
+<p>Creating a simple HTTP server</p>
+<p>Understanding the request listener</p>
+<p>Starting and stopping a server</p>
+<p>3.4 npm and dependency management</p>
+<p>npm registry</p>
+<p>Installing and removing packages</p>
+<p>Dependencies versus dev dependencies</p>
+<p>Semantic versioning</p>
+<p>Version ranges and lockfiles</p>
+<p>npm scripts</p>
+<p>npm install versus npm ci</p>
+<p>Updating and auditing dependencies</p>
+<p>Package maintenance and supply-chain risks</p>
+<p>.gitignore</p>
+<p>Reproducible development environments</p>
+<p>Practical assignment: Create a command-line calculator and a basic HTTP server without Express.</p>
+<p>Module 4. Node.js core modules</p>
+<h3>4.1 File system — fs</h3>
+<p>Synchronous versus asynchronous file operations</p>
+<p>Callback, promise, and synchronous APIs</p>
+<p>Reading and writing files</p>
+<p>Appending data</p>
+<p>Renaming and deleting files</p>
+<p>Creating and removing directories</p>
+<p>File metadata and permissions</p>
+<p>Working with JSON files</p>
+<p>File streams</p>
+<p>Handling file system errors</p>
+<h3>4.2 Paths and operating-system utilities</h3>
+<p>path.join(), path.resolve(), and path normalization</p>
+<p>Absolute versus relative paths</p>
+<p>Platform-specific path handling</p>
+<p>os module</p>
+<p>Environment and platform information</p>
+<p>Process working directory</p>
+<h3>4.3 Process and environment</h3>
+<p>process.argv</p>
+<p>process.env</p>
+<p>Process exit codes</p>
+<p>Signals and graceful shutdown</p>
+<p>Environment configuration</p>
+<p>Configuration validation</p>
+<p>Never committing secrets to Git</p>
+<h3>4.4 Other useful core modules</h3>
+<p>http and https</p>
+<p>url</p>
+<p>events</p>
+<p>crypto</p>
+<p>stream</p>
+<p>buffer</p>
+<p>util</p>
+<p>timers</p>
+<p>readline</p>
+<p>zlib</p>
+<p>assert</p>
+<p>worker_threads</p>
+<p>child_process</p>
+<p>perf_hooks</p>
+<h3>4.5 Streams and buffers</h3>
+<p>What streams solve</p>
+<p>Readable, writable, duplex, and transform streams</p>
+<p>Piping and backpressure</p>
+<p>Buffer creation and manipulation</p>
+<p>Handling large files efficiently</p>
+<p>Streaming uploads and downloads</p>
+<p>Stream error handling</p>
+<h3>4.6 Events and asynchronous operations</h3>
+<p>Event emitters</p>
+<p>Event listeners</p>
+<p>Promise-based APIs</p>
+<p>Error-first callbacks</p>
+<p>async/await</p>
+<p>Sequential versus parallel tasks</p>
+<p>Promise.all(), Promise.allSettled(), Promise.race(), and Promise.any()</p>
+<p>Event loop phases at a conceptual level</p>
+<p>Microtasks and timers</p>
+<p>Avoiding blocking operations</p>
+<p>Avoiding unhandled promise rejections</p>
+<p>Practical project: Build a file-processing utility that reads a large file, processes records, reports errors, and writes a summary.</p>
+<p>Module 5. Building a server with Node.js HTTP</p>
+<h3>5.1 HTTP server development</h3>
+<p>Creating a server using http.createServer()</p>
+<p>Listening on a port</p>
+<p>Handling request methods</p>
+<p>Parsing URLs and query parameters</p>
+<p>Reading request streams</p>
+<p>Parsing JSON request bodies safely</p>
+<p>Writing headers and status codes</p>
+<p>Sending JSON and text responses</p>
+<p>Serving basic static files</p>
+<p>Handling unsupported methods and routes</p>
+<p>Managing server errors</p>
+<h3>5.2 Build a mini API without Express</h3>
+<p>In-memory CRUD operations</p>
+<p>Route matching</p>
+<p>Input validation</p>
+<p>Centralized response helpers</p>
+<p>Error responses</p>
+<p>Basic request logging</p>
+<p>Separation of routing and business logic</p>
+<p>Milestone project: A mini REST API using only Node.js core modules. Students should understand what Express abstracts away.</p>
+<h3>Level 2 — Express.js fundamentals</h3>
+<p>Module 6. Introduction to Express.js</p>
+<h3>6.1 Express setup</h3>
+<p>What Express.js is</p>
+<p>Express versus the native Node.js HTTP module</p>
+<p>Creating an Express project</p>
+<p>Installing Express</p>
+<p>Setting up the application entry point</p>
+<p>Starting a development server</p>
+<p>Using npm scripts</p>
+<p>Understanding the application lifecycle</p>
+<p>Development versus production configuration</p>
+<h3>6.2 Creating routes</h3>
+<p>app.get()</p>
+<p>app.post()</p>
+<p>app.put()</p>
+<p>app.patch()</p>
+<p>app.delete()</p>
+<p>app.all()</p>
+<p>Route paths and route parameters</p>
+<p>Query parameters</p>
+<p>Reading req.params</p>
+<p>Reading req.query</p>
+<p>Reading req.body</p>
+<p>Reading request headers</p>
+<p>Using req.get()</p>
+<p>Handling unmatched routes</p>
+<p>Returning appropriate HTTP status codes</p>
+<h3>6.3 Sending responses</h3>
+<p>res.send()</p>
+<p>res.json()</p>
+<p>res.status()</p>
+<p>res.end()</p>
+<p>res.redirect()</p>
+<p>res.set() and response headers</p>
+<p>Sending files</p>
+<p>Downloading files</p>
+<p>Response status and body conventions</p>
+<p>Avoiding multiple responses for one request</p>
+<p>Understanding res.headersSent</p>
+<h3>6.4 Express application configuration</h3>
+<p>express()</p>
+<p>app.listen()</p>
+<p>app.set() and app.get() for application settings</p>
+<p>JSON body parsing with express.json()</p>
+<p>URL-encoded body parsing</p>
+<p>Static assets using express.static()</p>
+<p>Trust proxy configuration</p>
+<p>Environment-specific configuration</p>
+<p>Development logging</p>
+<h3>6.5 Practical assignment</h3>
+<p>Create a Student Management API with endpoints to:</p>
+<p>Add a student</p>
+<p>List all students</p>
+<p>Get one student by ID</p>
+<p>Update student information</p>
+<p>Delete a student</p>
+<p>Search by name or course</p>
+<p>Return correct status codes for success and failure</p>
+<p>Initially, use an in-memory array; later, replace it with MongoDB.</p>
+<p>Module 7. Express middleware</p>
+<p>Middleware is one of the most important concepts in Express. Students must understand it deeply because authentication, logging, validation, security, and error handling depend on middleware.</p>
+<h3>7.1 Middleware fundamentals</h3>
+<p>What middleware is</p>
+<p>Request-response middleware pipeline</p>
+<p>req, res, and next</p>
+<p>Application-level middleware</p>
+<p>Router-level middleware</p>
+<p>Built-in middleware</p>
+<p>Third-party middleware</p>
+<p>Custom middleware</p>
+<p>Middleware execution order</p>
+<p>Conditional middleware</p>
+<p>Skipping middleware</p>
+<p>Avoiding requests that never finish</p>
+<h3>7.2 Custom middleware development</h3>
+<p>Request logging</p>
+<p>Request timing</p>
+<p>Request ID generation</p>
+<p>Authentication checks</p>
+<p>Authorization checks</p>
+<p>Input validation</p>
+<p>Request body size restrictions</p>
+<p>API key validation</p>
+<p>Rate-limit handling</p>
+<p>Response headers</p>
+<p>Maintenance-mode middleware</p>
+<h3>7.3 Error-handling middleware</h3>
+<p>Four-argument error middleware</p>
+<p>Passing errors using next(err)</p>
+<p>Handling synchronous errors</p>
+<p>Handling rejected promises</p>
+<p>Async route error propagation</p>
+<p>Centralized error-handling architecture</p>
+<p>Custom error classes</p>
+<p>Development versus production error responses</p>
+<p>Avoiding disclosure of stack traces or internal details</p>
+<p>Not leaking secrets through error messages</p>
+<h3>7.4 Common middleware packages</h3>
+<p>cors</p>
+<p>helmet</p>
+<p>morgan or a structured logger</p>
+<p>express-rate-limit</p>
+<p>Request validation libraries such as Zod or Joi</p>
+<p>Cookie parsing where needed</p>
+<p>Compression middleware</p>
+<p>Multipart upload middleware such as Multer</p>
+<p>Students should learn what each package does, its limitations, and how to configure it safely rather than installing packages without understanding them.</p>
+<h3>7.5 Practical assignment</h3>
+<p>Build reusable middleware for logging, request validation, error handling, and rate limiting. Demonstrate how changing middleware order changes the request lifecycle.</p>
+<p>Module 8. Express routing and project organization</p>
+<h3>8.1 Router fundamentals</h3>
+<p>express.Router()</p>
+<p>Creating separate route files</p>
+<p>Mounting routers with app.use()</p>
+<p>Route prefixes</p>
+<p>Nested routers</p>
+<p>Route parameters and parameter middleware</p>
+<p>Route matching order</p>
+<p>Route conflicts</p>
+<p>Versioned routes such as /api/v1</p>
+<p>Route-specific middleware</p>
+<h3>8.2 Organizing backend code</h3>
+<p>Entry point and app configuration</p>
+<p>Routes</p>
+<p>Controllers</p>
+<p>Services</p>
+<p>Models</p>
+<p>Middleware</p>
+<p>Validators</p>
+<p>Configuration</p>
+<p>Utilities</p>
+<p>Error classes</p>
+<p>Database connection</p>
+<p>Tests</p>
+<p>API documentation</p>
+<h3>8.3 Common architecture patterns</h3>
+<p>Simple layered architecture</p>
+<p>MVC pattern</p>
+<p>Controller-service-repository separation</p>
+<p>Dependency injection fundamentals</p>
+<p>Keeping business logic out of routes</p>
+<p>Avoiding unnecessarily complex abstractions</p>
+<p>Managing dependencies between modules</p>
+<h3>8.4 Example folder structure</h3>
+<p>backend/</p>
+<p>├── src/</p>
+<p>│   ├── app.js</p>
+<p>│   ├── server.js</p>
+<p>│   ├── config/</p>
+<p>│   │   ├── env.js</p>
+<p>│   │   └── database.js</p>
+<p>│   ├── routes/</p>
+<p>│   │   └── user.routes.js</p>
+<p>│   ├── controllers/</p>
+<p>│   │   └── user.controller.js</p>
+<p>│   ├── services/</p>
+<p>│   │   └── user.service.js</p>
+<p>│   ├── models/</p>
+<p>│   │   └── user.model.js</p>
+<p>│   ├── middleware/</p>
+<p>│   │   ├── auth.js</p>
+<p>│   │   └── error-handler.js</p>
+<p>│   ├── validators/</p>
+<p>│   ├── utils/</p>
+<p>│   └── tests/</p>
+<p>├── .env.example</p>
+<p>├── .gitignore</p>
+<p>├── package.json</p>
+<p>└── README.md</p>
+<p>This is a teaching structure, not a mandatory standard. For small projects, a simpler structure is appropriate; for larger projects, feature-based modules may be easier to maintain.</p>
+<p>Milestone: Students can create a modular Express application with clean routing, reusable middleware, and centralized error handling.</p>
+<h3>Level 3 — MongoDB database development</h3>
+<p>Module 9. Database and NoSQL fundamentals</p>
+<h3>9.1 Database concepts</h3>
+<p>What a database is</p>
+<p>Database server versus application server</p>
+<p>SQL versus NoSQL</p>
+<p>Relational tables versus document collections</p>
+<p>Records, rows, documents, and fields</p>
+<p>Schema and schema flexibility</p>
+<p>Primary keys and identifiers</p>
+<p>Relationships and references</p>
+<p>Transactions and consistency</p>
+<p>Choosing a database based on application requirements</p>
+<h3>9.2 MongoDB concepts</h3>
+<p>MongoDB architecture at a high level</p>
+<p>Database, collection, and document</p>
+<p>BSON versus JSON</p>
+<p>The _id field and ObjectId</p>
+<p>Embedded documents</p>
+<p>Arrays inside documents</p>
+<p>Flexible schemas</p>
+<p>Document size considerations</p>
+<p>Basic CRUD operations</p>
+<p>MongoDB Atlas versus self-hosted MongoDB</p>
+<h3>9.3 Installation and setup</h3>
+<p>MongoDB Atlas account and cluster</p>
+<p>Database users and authentication</p>
+<p>Network access configuration</p>
+<p>Connection strings</p>
+<p>Database tools and shell</p>
+<p>MongoDB Compass</p>
+<p>Creating databases and collections</p>
+<p>Environment variable configuration</p>
+<p>Local versus cloud development</p>
+<p>Least-privilege access</p>
+<p>Module 10. MongoDB CRUD operations</p>
+<p>Teach the native MongoDB query language before moving into Mongoose.</p>
+<h3>10.1 Create operations</h3>
+<p>insertOne()</p>
+<p>insertMany()</p>
+<p>Automatic and explicit _id</p>
+<p>Insert validation</p>
+<p>Duplicate-key errors</p>
+<p>Bulk writes</p>
+<h3>10.2 Read operations</h3>
+<p>find()</p>
+<p>findOne()</p>
+<p>Query filters</p>
+<p>Projection</p>
+<p>Sorting</p>
+<p>Limiting results</p>
+<p>Skipping records</p>
+<p>Counting documents</p>
+<p>Distinct values</p>
+<p>Nested-field queries</p>
+<p>Array queries</p>
+<h3>10.3 Update operations</h3>
+<p>updateOne()</p>
+<p>updateMany()</p>
+<p>replaceOne()</p>
+<p>$set</p>
+<p>$unset</p>
+<p>$inc</p>
+<p>$min and $max</p>
+<p>$rename</p>
+<p>$push and $pull</p>
+<p>$addToSet</p>
+<p>$pop</p>
+<p>Upserts</p>
+<p>Update filters and matched versus modified counts</p>
+<h3>10.4 Delete operations</h3>
+<p>deleteOne()</p>
+<p>deleteMany()</p>
+<p>Delete filters</p>
+<p>Safe deletion patterns</p>
+<p>Soft deletion versus permanent deletion</p>
+<p>Bulk deletion considerations</p>
+<h3>10.5 Query operators</h3>
+<p>Comparison: $eq, $ne, $gt, $gte, $lt, $lte</p>
+<p>Logical: $and, $or, $not, $nor</p>
+<p>Element: $exists, $type</p>
+<p>Evaluation: $regex and its limitations</p>
+<p>Array: $in, $nin, $all, $elemMatch, $size</p>
+<p>Working with nested objects</p>
+<p>Querying embedded documents</p>
+<p>Combining multiple operators</p>
+<p>Avoiding unbounded queries</p>
+<h3>10.6 Practical exercises</h3>
+<p>Create a student collection.</p>
+<p>Filter students by course, age, or enrollment status.</p>
+<p>Update student records using operators.</p>
+<p>Find students whose marks exceed a threshold.</p>
+<p>Query arrays and nested address fields.</p>
+<p>Handle invalid IDs and missing records.</p>
+<p>Module 11. MongoDB data modeling and relationships</p>
+<h3>11.1 Data modeling principles</h3>
+<p>Start from application access patterns</p>
+<p>Identify entities and relationships</p>
+<p>Embed versus reference</p>
+<p>One-to-one relationships</p>
+<p>One-to-many relationships</p>
+<p>Many-to-many relationships</p>
+<p>Denormalization and duplication</p>
+<p>Avoiding excessive document growth</p>
+<p>Avoiding unbounded arrays</p>
+<p>Handling frequently changing related data</p>
+<p>Schema evolution</p>
+<h3>11.2 Relationship design</h3>
+<p>Embedded address in a user document</p>
+<p>Orders embedded within a small bounded record</p>
+<p>Referencing users from orders</p>
+<p>Referencing courses from enrollments</p>
+<p>Many-to-many student-course relationships</p>
+<p>Modeling comments and posts</p>
+<p>Modeling categories and products</p>
+<p>Handling deleted or missing referenced records</p>
+<h3>11.3 Data integrity</h3>
+<p>Required fields</p>
+<p>Unique constraints</p>
+<p>Application-level validation</p>
+<p>Database validation rules</p>
+<p>Duplicate records</p>
+<p>Referential consistency in a document database</p>
+<p>Handling concurrent updates</p>
+<p>Idempotent writes</p>
+<h3>11.4 Practical modeling task</h3>
+<p>Design collections for a computer institute management system:</p>
+<p>Students</p>
+<p>Courses</p>
+<p>Batches</p>
+<p>Enrollments</p>
+<p>Attendance</p>
+<p>Payments</p>
+<p>Instructors</p>
+<p>Assessments</p>
+<p>Students should justify whether each relationship should be embedded or referenced.</p>
+<p>Module 12. MongoDB indexes and performance</p>
+<h3>12.1 Index fundamentals</h3>
+<p>Why indexes exist</p>
+<p>Query performance and trade-offs</p>
+<p>Single-field indexes</p>
+<p>Compound indexes</p>
+<p>Unique indexes</p>
+<p>Multikey indexes</p>
+<p>Text indexes</p>
+<p>TTL indexes</p>
+<p>Partial indexes</p>
+<p>Sparse indexes</p>
+<p>Indexes on nested fields</p>
+<p>Index ordering and field prefixes</p>
+<h3>12.2 Query optimization</h3>
+<p>explain() and execution plans</p>
+<p>COLLSCAN versus index scans</p>
+<p>Selectivity</p>
+<p>Covered queries</p>
+<p>Sort performance</p>
+<p>Pagination performance</p>
+<p>Avoiding unnecessary indexes</p>
+<p>Write overhead from excessive indexes</p>
+<p>Profiling slow queries</p>
+<p>Measuring performance instead of guessing</p>
+<h3>12.3 Practical exercises</h3>
+<p>Compare a query before and after indexing.</p>
+<p>Build a compound index for a common filter and sort.</p>
+<p>Diagnose a slow query using an execution plan.</p>
+<p>Measure the impact of an index on writes.</p>
+<p>Module 13. MongoDB aggregation framework</p>
+<p>Aggregation is essential for analytics, reports, dashboards, and complex data transformations.</p>
+<h3>13.1 Pipeline fundamentals</h3>
+<p>Aggregation pipeline</p>
+<p>Stage ordering</p>
+<p>Filtering with $match</p>
+<p>Projection with $project</p>
+<p>Grouping with $group</p>
+<p>Sorting with $sort</p>
+<p>Limiting with $limit</p>
+<p>Skipping with $skip</p>
+<p>Counting with $count</p>
+<p>Reshaping with $set and $addFields</p>
+<p>Removing fields with $unset</p>
+<h3>13.2 Grouping and calculations</h3>
+<p>$sum</p>
+<p>$avg</p>
+<p>$min</p>
+<p>$max</p>
+<p>$first</p>
+<p>$last</p>
+<p>$push</p>
+<p>$addToSet</p>
+<p>Conditional calculations with $cond</p>
+<p>Multi-field grouping</p>
+<p>Date-based grouping</p>
+<p>Null and missing-value handling</p>
+<h3>13.3 Advanced aggregation</h3>
+<p>$unwind</p>
+<p>$lookup</p>
+<p>$facet</p>
+<p>$bucket and $bucketAuto</p>
+<p>$replaceRoot and $replaceWith</p>
+<p>$map, $filter, and $reduce</p>
+<p>Date operators</p>
+<p>String operators</p>
+<p>Conditional expressions</p>
+<p>Pagination and count facets</p>
+<p>Aggregation performance considerations</p>
+<h3>13.4 Real-world reporting exercises</h3>
+<p>Monthly revenue by course</p>
+<p>Number of active students per batch</p>
+<p>Attendance percentage by student</p>
+<p>Most popular courses</p>
+<p>Outstanding fee reports</p>
+<p>Enrollment trends by month</p>
+<p>Average marks by assessment</p>
+<p>Revenue grouped by payment method</p>
+<p>Module 14. Advanced MongoDB operations</p>
+<h3>14.1 Transactions and atomicity</h3>
+<p>Single-document atomicity</p>
+<p>Multi-document transactions</p>
+<p>Sessions</p>
+<p>Commit and abort</p>
+<p>Transaction boundaries</p>
+<p>Transaction costs</p>
+<p>When a transaction is unnecessary</p>
+<p>Retry considerations</p>
+<h3>14.2 Replication and availability</h3>
+<p>Replica sets</p>
+<p>Primary and secondary members</p>
+<p>Replication basics</p>
+<p>Read preferences</p>
+<p>Write concern</p>
+<p>Read concern</p>
+<p>Failover</p>
+<p>High availability concepts</p>
+<h3>14.3 Sharding and scaling</h3>
+<p>Sharded clusters</p>
+<p>Shard keys</p>
+<p>Cardinality and distribution</p>
+<p>Hot shards and hotspots</p>
+<p>Horizontal scaling</p>
+<p>Balancing</p>
+<p>Operational complexity</p>
+<p>When sharding is appropriate</p>
+<h3>14.4 Operational database management</h3>
+<p>Backups and restore testing</p>
+<p>Import and export</p>
+<p>Data migrations</p>
+<p>Schema-version management</p>
+<p>Database monitoring</p>
+<p>Connection limits</p>
+<p>Connection pooling</p>
+<p>Least-privilege database roles</p>
+<p>Network restrictions</p>
+<p>Encryption in transit and at rest</p>
+<p>Retention and deletion policies</p>
+<p>Milestone: Students can model MongoDB data, write advanced queries, build aggregation pipelines, optimize indexes, and understand database operations.</p>
+<h3>Level 4 — Mongoose and database integration</h3>
+<p>Module 15. Mongoose fundamentals</p>
+<p>Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js. Teach it after students understand native MongoDB operations.</p>
+<h3>15.1 Setup and connections</h3>
+<p>Installing Mongoose</p>
+<p>Connecting with mongoose.connect()</p>
+<p>Connection lifecycle</p>
+<p>Connection events</p>
+<p>Connection errors and retries</p>
+<p>Connection pooling</p>
+<p>Separating database configuration</p>
+<p>Graceful shutdown</p>
+<p>Managing connections in development and production</p>
+<h3>15.2 Schemas and models</h3>
+<p>Schema definition</p>
+<p>Creating models</p>
+<p>Schema types</p>
+<p>Strings, numbers, booleans, dates</p>
+<p>Arrays and nested objects</p>
+<p>ObjectId references</p>
+<p>Required fields</p>
+<p>Defaults</p>
+<p>Enums</p>
+<p>Minimum and maximum values</p>
+<p>String length and trimming</p>
+<p>Custom setters and getters</p>
+<p>Timestamps</p>
+<p>Schema-level options</p>
+<p>Strict mode</p>
+<h3>15.3 Validation</h3>
+<p>Built-in validators</p>
+<p>Custom validators</p>
+<p>Synchronous and asynchronous validation</p>
+<p>Validation errors</p>
+<p>validate() and validateSync()</p>
+<p>Document validation versus update validation</p>
+<p>runValidators in update operations</p>
+<p>Why Mongoose validation is not a replacement for request validation</p>
+<p>Database-level constraints where appropriate</p>
+<h3>15.4 CRUD with Mongoose</h3>
+<p>Model.create()</p>
+<p>Model.insertMany()</p>
+<p>Model.find()</p>
+<p>Model.findOne()</p>
+<p>Model.findById()</p>
+<p>Model.findByIdAndUpdate()</p>
+<p>Model.findOneAndUpdate()</p>
+<p>Model.updateMany()</p>
+<p>Model.deleteOne()</p>
+<p>Model.findByIdAndDelete()</p>
+<p>save()</p>
+<p>Query chaining</p>
+<p>.select()</p>
+<p>.sort()</p>
+<p>.limit()</p>
+<p>.skip()</p>
+<p>.lean()</p>
+<p>.exec()</p>
+<p>Handling null results and exceptions</p>
+<h3>15.5 Relationships and population</h3>
+<p>ObjectId references</p>
+<p>ref</p>
+<p>populate()</p>
+<p>Selecting populated fields</p>
+<p>Nested population</p>
+<p>Population limitations</p>
+<p>Avoiding excessive database queries</p>
+<p>Embedding versus referencing with Mongoose</p>
+<p>Virtual populate</p>
+<p>Avoiding unnecessary population in list endpoints</p>
+<h3>15.6 Middleware, methods, and virtuals</h3>
+<p>Document middleware</p>
+<p>Query middleware</p>
+<p>Model middleware</p>
+<p>Aggregate middleware</p>
+<p>Instance methods</p>
+<p>Static methods</p>
+<p>Virtual properties</p>
+<p>Transforming documents into API responses</p>
+<p>Avoiding sensitive fields in serialized output</p>
+<p>Middleware ordering and limitations</p>
+<h3>15.7 Advanced Mongoose</h3>
+<p>Discriminators</p>
+<p>Transactions with sessions</p>
+<p>Optimistic concurrency</p>
+<p>Version keys</p>
+<p>Bulk writes</p>
+<p>Index declarations</p>
+<p>Index synchronization considerations</p>
+<p>Schema migrations</p>
+<p>Handling duplicate-key errors</p>
+<p>Model reuse and hot-reload concerns</p>
+<p>TypeScript integration</p>
+<p>Practical assignment: Convert the earlier Student Management API from in-memory arrays to MongoDB using Mongoose.</p>
+<p>Module 16. Connecting Express, Mongoose, and application logic</p>
+<h3>16.1 Full request lifecycle</h3>
+<p>Students should be able to explain this flow:</p>
+<p>Client / React frontend</p>
+<p>Express route</p>
+<p>Middleware and validation</p>
+<p>Controller</p>
+<p>Service / business logic</p>
+<p>Mongoose model</p>
+<p>MongoDB database</p>
+<p>Responses and errors travel back through the application to the client.</p>
+<h3>16.2 Implementation topics</h3>
+<p>Loading configuration before startup</p>
+<p>Establishing database connections</p>
+<p>Starting the server only after required initialization succeeds</p>
+<p>Defining schemas and models</p>
+<p>Writing controllers</p>
+<p>Separating business rules into services</p>
+<p>Handling database errors</p>
+<p>Returning consistent JSON responses</p>
+<p>Validating route parameters</p>
+<p>Handling invalid MongoDB ObjectIds</p>
+<p>Distinguishing not-found errors from server failures</p>
+<p>Preventing duplicate submissions</p>
+<p>Avoiding database calls inside unnecessary loops</p>
+<p>Using pagination for list endpoints</p>
+<h3>16.3 CRUD API implementation</h3>
+<p>Build the following endpoints:</p>
+<div class="table-scroll"><table>
+<tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Purpose</th>
+</tr>
+<tr>
+<td>POST</td>
+<td>/api/v1/students</td>
+<td>Create a student</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>/api/v1/students</td>
+<td>List students</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>/api/v1/students/:id</td>
+<td>Get one student</td>
+</tr>
+<tr>
+<td>PATCH</td>
+<td>/api/v1/students/:id</td>
+<td>Update selected fields</td>
+</tr>
+<tr>
+<td>DELETE</td>
+<td>/api/v1/students/:id</td>
+<td>Delete or archive a student</td>
+</tr>
+</table></div>
+<p>Extend the API with filtering, sorting, pagination, search, validation, authentication, and role-based access.</p>
+<h3>Level 5 — REST API engineering</h3>
+<p>Module 17. API design and implementation</p>
+<h3>17.1 API conventions</h3>
+<p>Resource-oriented endpoint naming</p>
+<p>Plural resource names</p>
+<p>HTTP method semantics</p>
+<p>Appropriate status codes</p>
+<p>Consistent error formats</p>
+<p>Request and response contracts</p>
+<p>API versioning</p>
+<p>Backward compatibility</p>
+<p>Deprecation strategies</p>
+<p>Date and time formats</p>
+<p>Numeric precision and currency representation</p>
+<p>Null, missing, and optional fields</p>
+<p>Idempotency and safe retries</p>
+<h3>17.2 Pagination, filtering, and sorting</h3>
+<p>Page-based pagination</p>
+<p>Limit and offset</p>
+<p>Cursor-based pagination</p>
+<p>Stable sorting</p>
+<p>Filtering by multiple fields</p>
+<p>Search endpoints</p>
+<p>Date-range filters</p>
+<p>Validation of page sizes</p>
+<p>Maximum page-size limits</p>
+<p>Avoiding expensive full-collection searches</p>
+<p>Designing pagination metadata</p>
+<h3>17.3 Search</h3>
+<p>Case-insensitive search</p>
+<p>Exact versus partial matching</p>
+<p>Regular-expression risks</p>
+<p>Text indexes</p>
+<p>MongoDB Atlas Search where available</p>
+<p>Search relevance and ranking</p>
+<p>Search performance</p>
+<p>Search result pagination</p>
+<h3>17.4 File and data handling</h3>
+<p>JSON body parsing</p>
+<p>URL-encoded forms</p>
+<p>Multipart requests</p>
+<p>File upload limits</p>
+<p>File metadata</p>
+<p>Download endpoints</p>
+<p>CSV import/export</p>
+<p>Streaming large responses</p>
+<p>Handling large request bodies</p>
+<p>Input encoding and data normalization</p>
+<h3>17.5 API documentation</h3>
+<p>OpenAPI specification</p>
+<p>Swagger UI</p>
+<p>Documenting routes, parameters, and schemas</p>
+<p>Authentication schemes</p>
+<p>Error response documentation</p>
+<p>Example requests and responses</p>
+<p>Maintaining documentation alongside code</p>
+<p>Generating API clients conceptually</p>
+<h3>17.6 Practical assignment</h3>
+<p>Build a versioned REST API for an online course platform, with pagination, filters, search, documented contracts, and standardized errors.</p>
+<p>Module 18. Validation and data integrity</p>
+<h3>18.1 Request validation</h3>
+<p>Validate path parameters</p>
+<p>Validate query parameters</p>
+<p>Validate request bodies</p>
+<p>Required versus optional fields</p>
+<p>Type conversion</p>
+<p>Length and range restrictions</p>
+<p>Allowlisted fields</p>
+<p>Nested object validation</p>
+<p>Array validation</p>
+<p>Date and email validation</p>
+<p>Sanitization where appropriate</p>
+<h3>18.2 Validation libraries</h3>
+<p>Choose one primary library for teaching:</p>
+<p>Zod</p>
+<p>Joi</p>
+<p>Express-validator</p>
+<p>Teach the concepts first; then compare syntax and trade-offs.</p>
+<h3>18.3 Data integrity rules</h3>
+<p>Preventing mass assignment</p>
+<p>Preventing unexpected field updates</p>
+<p>Handling duplicate email addresses</p>
+<p>Unique index errors</p>
+<p>Cross-field validation</p>
+<p>Business-rule validation</p>
+<p>Concurrency conflicts</p>
+<p>Idempotent create operations</p>
+<p>Consistency between related documents</p>
+<p>Avoiding trust in frontend validation alone</p>
+<p>Practical assignment: Create reusable schemas for registration, login, course creation, enrollment, payment initiation, and student updates.</p>
+<h3>Level 6 — Authentication and authorization</h3>
+<p>Module 19. Authentication fundamentals</p>
+<h3>19.1 Core concepts</h3>
+<p>Authentication versus authorization</p>
+<p>Identity and access management</p>
+<p>User registration</p>
+<p>Login and logout</p>
+<p>Password storage</p>
+<p>Password hashing versus encryption</p>
+<p>Sessions and tokens</p>
+<p>Access control</p>
+<p>Identity providers</p>
+<p>Authentication failure responses</p>
+<p>Account lifecycle and recovery</p>
+<h3>19.2 Password security</h3>
+<p>Why plaintext passwords must never be stored</p>
+<p>Password hashing with Argon2id or bcrypt</p>
+<p>Salt and work factor</p>
+<p>Password policy</p>
+<p>Password confirmation</p>
+<p>Preventing account enumeration</p>
+<p>Login rate limiting</p>
+<p>Secure password reset flows</p>
+<p>Reset token generation, expiry, and single use</p>
+<p>Changing passwords</p>
+<p>Revoking sessions after sensitive changes</p>
+<h3>19.3 JWT authentication</h3>
+<p>JWT structure: header, payload, signature</p>
+<p>Signing and verifying tokens</p>
+<p>Claims and expiration</p>
+<p>Access-token lifecycle</p>
+<p>Refresh-token lifecycle</p>
+<p>Token rotation and revocation</p>
+<p>Secret and key management</p>
+<p>Token storage trade-offs</p>
+<p>Why decoded JWT data is not automatically trusted</p>
+<p>Avoiding sensitive information in token payloads</p>
+<p>Correct algorithm and issuer/audience validation</p>
+<h3>19.4 Cookie-based authentication</h3>
+<p>HTTP-only cookies</p>
+<p>Secure cookies</p>
+<p>SameSite policies</p>
+<p>Cookie expiry</p>
+<p>Session identifiers</p>
+<p>Session storage</p>
+<p>CSRF considerations</p>
+<p>Cross-origin credential configuration</p>
+<p>Session invalidation</p>
+<p>Cookie-domain and path configuration</p>
+<h3>19.5 Session versus JWT</h3>
+<p>Students should compare both approaches and choose based on the application’s needs, rather than assuming JWT is always better.</p>
+<p>Module 20. Implementing authentication</p>
+<h3>20.1 Registration and login</h3>
+<p>User schema</p>
+<p>Registration validation</p>
+<p>Duplicate-account handling</p>
+<p>Password hashing</p>
+<p>Login verification</p>
+<p>Token or session creation</p>
+<p>Authentication middleware</p>
+<p>Current-user endpoint</p>
+<p>Logout</p>
+<p>Protected routes</p>
+<p>Error handling</p>
+<h3>20.2 Account security features</h3>
+<p>Email verification</p>
+<p>Password reset</p>
+<p>Refresh tokens</p>
+<p>Session management</p>
+<p>Logout from all devices</p>
+<p>Account deactivation</p>
+<p>Optional multi-factor authentication</p>
+<p>OAuth 2.0 and OpenID Connect concepts</p>
+<p>Social login integration</p>
+<p>Secure redirect validation</p>
+<h3>20.3 Authorization</h3>
+<p>Role-based access control (RBAC)</p>
+<p>Permissions</p>
+<p>Admin, instructor, and student roles</p>
+<p>Resource ownership</p>
+<p>Role and permission middleware</p>
+<p>Object-level authorization</p>
+<p>Preventing insecure direct object references</p>
+<p>Deny-by-default design</p>
+<p>Least privilege</p>
+<p>Tenant and organization boundaries</p>
+<h3>20.4 Practical assignment</h3>
+<p>Build a complete authentication module with registration, login, logout, password reset, protected endpoints, and role-based access.</p>
+<p>Security requirement: Authentication is not complete until students test unauthorized requests, expired tokens or sessions, privilege escalation attempts, and cross-user data access.</p>
+<h3>Level 7 — Backend security</h3>
+<p>Module 21. OWASP and common backend vulnerabilities</p>
+<p>Students should learn to identify, reproduce safely in a local test environment, prevent, and test for common vulnerabilities.</p>
+<h3>21.1 Input and injection security</h3>
+<p>NoSQL injection</p>
+<p>SQL injection concepts for comparison</p>
+<p>Untrusted object keys and query operators</p>
+<p>Unsafe query construction</p>
+<p>Validation and allowlisting</p>
+<p>Avoiding direct use of request objects in database queries</p>
+<p>Regular-expression denial-of-service risks</p>
+<p>Command injection</p>
+<p>Path traversal</p>
+<p>Unsafe file paths</p>
+<p>Output encoding</p>
+<h3>21.2 API security</h3>
+<p>Broken authentication</p>
+<p>Broken authorization</p>
+<p>Broken object-level authorization</p>
+<p>Broken function-level authorization</p>
+<p>Excessive data exposure</p>
+<p>Mass assignment</p>
+<p>Unrestricted resource consumption</p>
+<p>Rate limiting</p>
+<p>Brute-force protection</p>
+<p>Account enumeration</p>
+<p>Request-size limits</p>
+<p>API key security</p>
+<p>API abuse and scraping</p>
+<p>Sensitive business-flow protection</p>
+<h3>21.3 Browser and transport security</h3>
+<p>HTTPS and TLS</p>
+<p>CORS configuration</p>
+<p>Cross-site scripting (XSS) fundamentals</p>
+<p>Cross-site request forgery (CSRF)</p>
+<p>Content Security Policy concepts</p>
+<p>Secure cookie settings</p>
+<p>Security-related HTTP headers</p>
+<p>Origin and referer validation where appropriate</p>
+<p>Redirect validation</p>
+<p>Mixed-content risks</p>
+<h3>21.4 Secrets and dependency security</h3>
+<p>Environment variables</p>
+<p>Secret managers</p>
+<p>Secret rotation</p>
+<p>.env files and .gitignore</p>
+<p>Dependency vulnerability audits</p>
+<p>Lockfile integrity</p>
+<p>Supply-chain risks</p>
+<p>Removing secrets from logs</p>
+<p>Safe error responses</p>
+<p>Production debug settings</p>
+<p>Least-privilege database credentials</p>
+<h3>21.5 File-upload security</h3>
+<p>MIME type versus file extension</p>
+<p>File-size restrictions</p>
+<p>File signature checks</p>
+<p>Randomized storage names</p>
+<p>Malware scanning concepts</p>
+<p>Avoiding execution of uploaded files</p>
+<p>Private versus public storage</p>
+<p>Signed download URLs</p>
+<p>Access control for files</p>
+<p>Preventing path traversal</p>
+<h3>21.6 Security testing exercises</h3>
+<p>Attempt to access another user&#x27;s records.</p>
+<p>Try updating fields that a normal user should not control.</p>
+<p>Test malformed and oversized payloads.</p>
+<p>Test rate limits on login endpoints.</p>
+<p>Test expired and revoked credentials.</p>
+<p>Verify that secrets and stack traces are absent from production responses.</p>
+<p>Check that uploaded files cannot be used to execute code.</p>
+<p>Use a current OWASP API Security Top 10 reference as a teaching checklist, and update the material when the published edition changes.</p>
+<h3>Level 8 — Advanced Node.js</h3>
+<p>Module 22. Asynchronous programming and concurrency</p>
+<h3>22.1 Deep event-loop understanding</h3>
+<p>Call stack</p>
+<p>Task queues and microtasks</p>
+<p>Promise scheduling</p>
+<p>Timers and I/O callbacks</p>
+<p>process.nextTick() considerations</p>
+<p>Event-loop phases</p>
+<p>Blocking versus non-blocking execution</p>
+<p>I/O concurrency</p>
+<p>Common misconceptions about the single-threaded model</p>
+<h3>22.2 Async error handling</h3>
+<p>Rejected promises</p>
+<p>try/catch with await</p>
+<p>Async middleware</p>
+<p>Promise chains</p>
+<p>Error propagation</p>
+<p>Timeouts</p>
+<p>Cancellation with AbortController</p>
+<p>Handling external service failures</p>
+<p>Retries with exponential backoff</p>
+<p>Jitter and retry limits</p>
+<p>Avoiding retry storms</p>
+<h3>22.3 Parallelism and background work</h3>
+<p>Promise.all() versus sequential execution</p>
+<p>Limiting concurrent operations</p>
+<p>Worker threads</p>
+<p>Child processes</p>
+<p>CPU-intensive workloads</p>
+<p>Message passing</p>
+<p>Process isolation</p>
+<p>Background jobs</p>
+<p>Job queues</p>
+<p>Scheduling tasks</p>
+<p>Idempotent job handlers</p>
+<h3>22.4 Practical exercises</h3>
+<p>Compare sequential and parallel API calls.</p>
+<p>Simulate a slow external service.</p>
+<p>Implement timeouts and controlled retries.</p>
+<p>Move CPU-intensive work to a worker thread.</p>
+<p>Build a background job that processes student report data.</p>
+<p>Module 23. Streams, memory, and resource management</p>
+<h3>23.1 Streams in production</h3>
+<p>Streaming large downloads</p>
+<p>Streaming file uploads</p>
+<p>Transform streams</p>
+<p>Backpressure</p>
+<p>Pipeline error handling</p>
+<p>Compression</p>
+<p>Stream cancellation</p>
+<p>Efficient CSV processing</p>
+<p>Avoiding loading entire files into memory</p>
+<h3>23.2 Memory management</h3>
+<p>Heap and stack concepts</p>
+<p>Garbage collection fundamentals</p>
+<p>Memory leaks</p>
+<p>Retained references</p>
+<p>Large in-memory caches</p>
+<p>Event listener leaks</p>
+<p>Buffer memory</p>
+<p>Memory profiling</p>
+<p>Heap snapshots</p>
+<p>Diagnosing increasing memory usage</p>
+<h3>23.3 Resource lifecycle</h3>
+<p>Database connection pools</p>
+<p>HTTP connection handling</p>
+<p>Timeouts</p>
+<p>Graceful shutdown</p>
+<p>Closing database connections</p>
+<p>Stopping background workers</p>
+<p>Signal handling</p>
+<p>Readiness during startup and shutdown</p>
+<p>Avoiding premature process termination</p>
+<p>Module 24. Logging, debugging, and observability</p>
+<h3>24.1 Debugging</h3>
+<p>Node.js inspector</p>
+<p>VS Code debugger</p>
+<p>Breakpoints</p>
+<p>Watch expressions</p>
+<p>Call stacks</p>
+<p>Inspecting asynchronous code</p>
+<p>Reproducing bugs</p>
+<p>Source maps</p>
+<p>Diagnosing uncaught errors</p>
+<h3>24.2 Logging</h3>
+<p>console versus structured logging</p>
+<p>Log levels</p>
+<p>Structured JSON logs</p>
+<p>Request IDs</p>
+<p>Correlation IDs</p>
+<p>Redacting sensitive information</p>
+<p>Log retention</p>
+<p>Centralized log collection</p>
+<p>Avoiding excessive logging</p>
+<h3>24.3 Monitoring and observability</h3>
+<p>Metrics, logs, and traces</p>
+<p>Latency percentiles</p>
+<p>Request throughput</p>
+<p>Error rates</p>
+<p>Event-loop delay</p>
+<p>Memory and CPU usage</p>
+<p>Database query latency</p>
+<p>External service latency</p>
+<p>Health endpoints</p>
+<p>Readiness and liveness checks</p>
+<p>Alert thresholds</p>
+<p>Incident investigation</p>
+<h3>24.4 Practical assignment</h3>
+<p>Instrument an Express API with request IDs, structured logs, timing metrics, error tracking, and health endpoints.</p>
+<h3>Level 9 — Advanced API architecture</h3>
+<p>Module 25. Service-layer architecture and clean code</p>
+<h3>25.1 Separation of concerns</h3>
+<p>Routes versus controllers</p>
+<p>Controllers versus services</p>
+<p>Services versus repositories</p>
+<p>Models versus domain rules</p>
+<p>Dependency boundaries</p>
+<p>Reusable validation</p>
+<p>Shared error handling</p>
+<p>Avoiding circular dependencies</p>
+<p>Managing module size</p>
+<p>Feature-based organization</p>
+<h3>25.2 Design principles</h3>
+<p>SOLID fundamentals</p>
+<p>Single responsibility</p>
+<p>Dependency inversion</p>
+<p>Composition over inheritance</p>
+<p>Separation of concerns</p>
+<p>DRY without premature abstraction</p>
+<p>Avoiding giant controllers</p>
+<p>Avoiding overengineering</p>
+<p>Consistent naming</p>
+<p>Code review practices</p>
+<h3>25.3 Design patterns for backend applications</h3>
+<p>Repository pattern</p>
+<p>Service pattern</p>
+<p>Factory pattern</p>
+<p>Adapter pattern</p>
+<p>Strategy pattern</p>
+<p>Middleware and decorator concepts</p>
+<p>Dependency injection</p>
+<p>Domain events</p>
+<p>When not to use a pattern</p>
+<h3>25.4 Practical assignment</h3>
+<p>Refactor a monolithic Express application into a maintainable layered application. Add unit tests around business logic and integration tests around database operations.</p>
+<p>Module 26. Caching and performance optimization</p>
+<h3>26.1 Caching fundamentals</h3>
+<p>Why caching is used</p>
+<p>In-memory cache</p>
+<p>Redis introduction</p>
+<p>Cache-aside pattern</p>
+<p>Read-through and write-through concepts</p>
+<p>Time-to-live (TTL)</p>
+<p>Cache invalidation</p>
+<p>Stale data</p>
+<p>Cache consistency</p>
+<p>Cache stampede</p>
+<p>Cache keys and namespacing</p>
+<h3>26.2 Backend performance</h3>
+<p>Request latency</p>
+<p>Database query optimization</p>
+<p>Index selection</p>
+<p>Pagination</p>
+<p>Avoiding N+1 query patterns</p>
+<p>Payload-size reduction</p>
+<p>Compression</p>
+<p>Connection reuse</p>
+<p>Avoiding synchronous file operations in request handlers</p>
+<p>Load testing</p>
+<p>Profiling before optimization</p>
+<h3>26.3 HTTP caching</h3>
+<p>Cache-Control</p>
+<p>ETag</p>
+<p>Conditional requests</p>
+<p>Last-Modified</p>
+<p>Public versus private caching</p>
+<p>Browser versus CDN caching</p>
+<p>Cache invalidation after updates</p>
+<h3>26.4 Practical assignment</h3>
+<p>Measure a slow API, identify the bottleneck, add the appropriate index or cache, and report before-and-after performance. Students must explain any trade-off in freshness or consistency.</p>
+<p>Module 27. Background jobs, queues, and scheduled tasks</p>
+<h3>27.1 Background processing</h3>
+<p>Why not every task belongs in a request handler</p>
+<p>Job producers and consumers</p>
+<p>Redis-backed queue concepts</p>
+<p>BullMQ or an equivalent queue library</p>
+<p>Job states</p>
+<p>Retry and backoff policies</p>
+<p>Failed-job handling</p>
+<p>Dead-letter concepts</p>
+<p>Job deduplication</p>
+<p>Idempotent processing</p>
+<p>Scheduled jobs</p>
+<p>Worker concurrency</p>
+<p>Queue monitoring</p>
+<h3>27.2 Common use cases</h3>
+<p>Sending emails</p>
+<p>Generating PDF certificates</p>
+<p>Processing uploaded files</p>
+<p>Generating large reports</p>
+<p>Sending reminders</p>
+<p>Expiring temporary records</p>
+<p>Processing webhooks</p>
+<p>Importing CSV files</p>
+<p>Scheduled cleanup</p>
+<h3>27.3 Practical assignment</h3>
+<p>Create a background worker that generates student certificates and emails them without blocking the API request.</p>
+<p>Module 28. Real-time backend development</p>
+<h3>28.1 WebSocket concepts</h3>
+<p>HTTP request-response versus persistent connections</p>
+<p>WebSocket handshake</p>
+<p>Full-duplex communication</p>
+<p>Connection lifecycle</p>
+<p>Client and server events</p>
+<p>Reconnection strategies</p>
+<p>Heartbeats</p>
+<p>Authentication</p>
+<p>Authorization for rooms and channels</p>
+<h3>28.2 Socket.IO</h3>
+<p>Installing and configuring Socket.IO</p>
+<p>Client-server events</p>
+<p>Namespaces</p>
+<p>Rooms</p>
+<p>Broadcasting</p>
+<p>Acknowledgements</p>
+<p>Connection middleware</p>
+<p>Scaling across multiple server instances</p>
+<p>Redis adapter concepts</p>
+<p>Handling disconnected users</p>
+<h3>28.3 Real-time applications</h3>
+<p>Live notifications</p>
+<p>Chat systems</p>
+<p>Real-time attendance</p>
+<p>Admin dashboards</p>
+<p>Live status updates</p>
+<p>Presence indicators</p>
+<p>Rate limiting real-time events</p>
+<p>Practical assignment: Create a real-time student support chat or live classroom notification service.</p>
+<p>Module 29. Third-party API integrations</p>
+<h3>29.1 External service communication</h3>
+<p>Using fetch or a suitable HTTP client</p>
+<p>Request headers and authentication</p>
+<p>API keys and OAuth credentials</p>
+<p>Timeouts</p>
+<p>Retries and backoff</p>
+<p>Rate limits</p>
+<p>Pagination from external APIs</p>
+<p>Parsing external responses</p>
+<p>Error normalization</p>
+<p>Circuit-breaker concepts</p>
+<p>Graceful degradation</p>
+<h3>29.2 Common integrations</h3>
+<p>Email service</p>
+<p>SMS or OTP service</p>
+<p>Cloud file storage</p>
+<p>Payment gateway</p>
+<p>Maps or geolocation APIs</p>
+<p>Analytics service</p>
+<p>OAuth login provider</p>
+<p>Webhook provider</p>
+<h3>29.3 Webhooks</h3>
+<p>Receiving webhook requests</p>
+<p>Verifying signatures</p>
+<p>Replay protection</p>
+<p>Idempotency</p>
+<p>Event IDs</p>
+<p>Duplicate deliveries</p>
+<p>Fast acknowledgement</p>
+<p>Asynchronous processing</p>
+<p>Failure recovery and retries</p>
+<h3>29.4 Payment integration</h3>
+<p>Payment order creation</p>
+<p>Server-side amount verification</p>
+<p>Payment signature verification</p>
+<p>Payment status reconciliation</p>
+<p>Webhook processing</p>
+<p>Idempotent payment handling</p>
+<p>Refunds</p>
+<p>Failure and pending states</p>
+<p>Audit records</p>
+<p>Never trusting the frontend alone for payment confirmation</p>
+<h3>Level 10 — Testing and quality assurance</h3>
+<p>Module 30. Backend testing fundamentals</p>
+<h3>30.1 Testing concepts</h3>
+<p>Why backend testing matters</p>
+<p>Unit tests</p>
+<p>Integration tests</p>
+<p>End-to-end tests</p>
+<p>Contract testing concepts</p>
+<p>Test pyramid</p>
+<p>Test coverage and its limitations</p>
+<p>Test data management</p>
+<p>Test isolation</p>
+<p>Deterministic tests</p>
+<p>Test environments versus production</p>
+<h3>30.2 Testing tools</h3>
+<p>Teach one primary testing stack, such as:</p>
+<p>Vitest or Jest for test execution</p>
+<p>Supertest for HTTP endpoint testing</p>
+<p>MongoDB test instances or isolated test databases</p>
+<p>Mocking and stubbing tools</p>
+<p>Coverage reporting</p>
+<p>Postman for exploratory testing</p>
+<h3>30.3 Unit testing</h3>
+<p>Testing pure functions</p>
+<p>Testing validators</p>
+<p>Testing utility functions</p>
+<p>Testing business rules</p>
+<p>Mocking dependencies</p>
+<p>Testing success and failure cases</p>
+<p>Testing edge cases</p>
+<p>Avoiding excessive mocking</p>
+<h3>30.4 Integration testing</h3>
+<p>Testing Express endpoints</p>
+<p>Testing database operations</p>
+<p>Testing validation middleware</p>
+<p>Testing authentication</p>
+<p>Testing authorization</p>
+<p>Testing pagination and filters</p>
+<p>Testing duplicate records</p>
+<p>Testing error responses</p>
+<p>Cleaning up test data</p>
+<p>Isolating test databases</p>
+<h3>30.5 End-to-end testing</h3>
+<p>Registration and login flow</p>
+<p>Course creation</p>
+<p>Student enrollment</p>
+<p>Payment workflow</p>
+<p>Password reset</p>
+<p>Permission enforcement</p>
+<p>Failure and retry scenarios</p>
+<h3>30.6 Essential test cases</h3>
+<p>Every API endpoint should be tested for:</p>
+<p>Valid input and successful response.</p>
+<p>Missing required fields.</p>
+<p>Invalid field formats.</p>
+<p>Invalid resource identifiers.</p>
+<p>Resource not found.</p>
+<p>Duplicate or conflicting data.</p>
+<p>Unauthenticated access.</p>
+<p>Insufficient permissions.</p>
+<p>Database or external-service failure.</p>
+<p>Unexpected fields and malformed requests.</p>
+<p>Practical assignment: Create a repeatable automated test suite for the complete Student Management API.</p>
+<p>Module 31. API testing and contract quality</p>
+<p>Postman collections and environments</p>
+<p>Environment variables in API tests</p>
+<p>Automated request sequences</p>
+<p>Positive and negative tests</p>
+<p>Authentication token management in test environments</p>
+<p>API response assertions</p>
+<p>Schema and contract validation</p>
+<p>OpenAPI documentation validation</p>
+<p>Regression testing</p>
+<p>Smoke testing</p>
+<p>Load testing fundamentals</p>
+<p>Avoiding accidental tests against production data</p>
+<h3>Level 11 — TypeScript for backend development</h3>
+<p>Module 32. TypeScript with Node.js and Express</p>
+<p>TypeScript is strongly recommended for students who intend to build maintainable, larger backend systems.</p>
+<h3>32.1 TypeScript foundations</h3>
+<p>Primitive types</p>
+<p>Arrays and tuples</p>
+<p>Object types</p>
+<p>Type aliases and interfaces</p>
+<p>Union and intersection types</p>
+<p>Literal types</p>
+<p>Optional properties</p>
+<p>Enums and alternatives</p>
+<p>Type narrowing</p>
+<p>Type guards</p>
+<p>Generics</p>
+<p>Utility types</p>
+<p>unknown versus any</p>
+<p>Type assertions</p>
+<p>Strict mode</p>
+<h3>32.2 Backend-specific TypeScript</h3>
+<p>Typing Express request and response objects</p>
+<p>Typing route parameters and query strings</p>
+<p>Typing request bodies</p>
+<p>Typed service return values</p>
+<p>Typed custom errors</p>
+<p>Typing middleware</p>
+<p>Async function return types</p>
+<p>Type-safe environment configuration</p>
+<p>Type-safe database models</p>
+<p>Runtime validation versus compile-time types</p>
+<p>Type-safe API response contracts</p>
+<h3>32.3 MongoDB and Mongoose with TypeScript</h3>
+<p>Model and document types</p>
+<p>Typed schema definitions</p>
+<p>ObjectId types</p>
+<p>Lean query results</p>
+<p>Optional versus nullable fields</p>
+<p>Validation and type alignment</p>
+<p>Avoiding unsafe casts</p>
+<p>Keeping runtime validation aligned with types</p>
+<h3>32.4 TypeScript project configuration</h3>
+<p>tsconfig.json</p>
+<p>Compiler options</p>
+<p>Source and output directories</p>
+<p>Development execution</p>
+<p>Build scripts</p>
+<p>Production execution</p>
+<p>Source maps</p>
+<p>Module-system compatibility</p>
+<p>Type-checking in CI</p>
+<p>Practical assignment: Convert the Student Management API from JavaScript to TypeScript without losing validation, testing, or maintainability.</p>
+<h3>Level 12 — Deployment and DevOps</h3>
+<p>Module 33. Production configuration</p>
+<h3>33.1 Environment management</h3>
+<p>Development, testing, staging, and production</p>
+<p>Environment-specific configuration</p>
+<p>Configuration validation at startup</p>
+<p>Secrets management</p>
+<p>.env.example</p>
+<p>Avoiding secrets in source control</p>
+<p>Managing database URLs</p>
+<p>Port configuration</p>
+<p>Logging configuration</p>
+<p>Feature flags</p>
+<p>Secure defaults</p>
+<h3>33.2 Production readiness</h3>
+<p>Correct production start command</p>
+<p>Process failure handling</p>
+<p>Graceful shutdown</p>
+<p>Database connection lifecycle</p>
+<p>Request timeouts</p>
+<p>Health checks</p>
+<p>Error reporting</p>
+<p>Log redaction</p>
+<p>Dependency review</p>
+<p>Database backups</p>
+<p>Recovery procedures</p>
+<p>Capacity planning</p>
+<p>Module 34. Deployment platforms</p>
+<h3>34.1 Deploying Node.js APIs</h3>
+<p>Deploying to a Node.js-compatible hosting platform</p>
+<p>Deploying to a virtual private server</p>
+<p>Managed application hosting</p>
+<p>Managed MongoDB with Atlas</p>
+<p>Setting production environment variables</p>
+<p>Connecting the API to the database securely</p>
+<p>Configuring domains</p>
+<p>HTTPS certificates</p>
+<p>Reverse proxies</p>
+<p>Deploying from Git</p>
+<p>Logs and troubleshooting</p>
+<p>Rollbacks</p>
+<h3>34.2 Process management</h3>
+<p>Process managers such as PM2 where appropriate</p>
+<p>Automatic restart policies</p>
+<p>Startup configuration</p>
+<p>Log management</p>
+<p>Graceful restarts</p>
+<p>Multiple application instances</p>
+<p>Load balancing fundamentals</p>
+<h3>34.3 Deployment models</h3>
+<p>Traditional server deployment</p>
+<p>Containers</p>
+<p>Serverless functions</p>
+<p>Managed platforms</p>
+<p>Trade-offs in cold starts, execution limits, state, and connection reuse</p>
+<p>Choosing an appropriate hosting model</p>
+<p>Module 35. Docker and containerization</p>
+<h3>35.1 Docker fundamentals</h3>
+<p>Images and containers</p>
+<p>Dockerfile</p>
+<p>Base images</p>
+<p>Build layers</p>
+<p>Ports</p>
+<p>Environment variables</p>
+<p>Container networking</p>
+<p>Volumes</p>
+<p>.dockerignore</p>
+<p>Container logs</p>
+<p>Container lifecycle</p>
+<h3>35.2 Backend Dockerization</h3>
+<p>Creating a Dockerfile for Node.js</p>
+<p>Multi-stage builds</p>
+<p>Installing production dependencies</p>
+<p>Running as a non-root user</p>
+<p>Health checks</p>
+<p>Container environment configuration</p>
+<p>Connecting to MongoDB</p>
+<p>Docker Compose for local development</p>
+<p>Avoiding secrets in image layers</p>
+<h3>35.3 Practical assignment</h3>
+<p>Containerize an Express API and MongoDB development environment. Document how to run the application from a clean machine.</p>
+<p>Module 36. CI/CD and Git workflows</p>
+<h3>36.1 Version control workflow</h3>
+<p>Git fundamentals</p>
+<p>Branching and merging</p>
+<p>Pull requests</p>
+<p>Code review</p>
+<p>Commit quality</p>
+<p>Resolving conflicts</p>
+<p>.gitignore</p>
+<p>Environment files</p>
+<p>Release tags</p>
+<h3>36.2 Continuous integration and deployment</h3>
+<p>Automated linting</p>
+<p>Formatting checks</p>
+<p>Type checking</p>
+<p>Unit and integration tests</p>
+<p>Build verification</p>
+<p>Dependency auditing</p>
+<p>Environment-specific deployment</p>
+<p>Database migration strategy</p>
+<p>Deployment approvals</p>
+<p>Rollback plans</p>
+<p>Post-deployment smoke tests</p>
+<h3>36.3 Practical assignment</h3>
+<p>Create a CI workflow that installs dependencies, runs checks and tests, builds the application, and deploys only after the required checks pass.</p>
+<h3>Level 13 — Advanced database architecture</h3>
+<p>Module 37. Database migrations and schema evolution</p>
+<p>Why schemas evolve</p>
+<p>Backward-compatible changes</p>
+<p>Adding and removing fields</p>
+<p>Data backfills</p>
+<p>Migration scripts</p>
+<p>Idempotent migrations</p>
+<p>Safe index creation</p>
+<p>Rolling deployments</p>
+<p>Application compatibility with old and new schemas</p>
+<p>Backup before risky changes</p>
+<p>Migration verification</p>
+<p>Rollback limitations</p>
+<p>Data cleanup and retention</p>
+<p>Module 38. Multi-tenancy and data isolation</p>
+<p>Single-tenant versus multi-tenant applications</p>
+<p>Tenant identifiers</p>
+<p>Tenant-scoped queries</p>
+<p>Tenant-aware middleware</p>
+<p>Data isolation</p>
+<p>Authorization across tenant boundaries</p>
+<p>Compound indexes with tenant identifiers</p>
+<p>Tenant-level configuration</p>
+<p>Tenant-specific quotas</p>
+<p>Avoiding cross-tenant data leakage</p>
+<p>Testing isolation guarantees</p>
+<p>Practical assignment: Add multiple institutes to the Student Management API, ensuring one institute cannot access another institute&#x27;s students, payments, or reports.</p>
+<p>Module 39. Advanced MongoDB design decisions</p>
+<p>Choosing between embedding and referencing at scale</p>
+<p>Handling high-volume collections</p>
+<p>Time-series data concepts</p>
+<p>Event records and audit logs</p>
+<p>Soft deletion</p>
+<p>Data retention policies</p>
+<p>Archival strategies</p>
+<p>Change streams</p>
+<p>Event-driven updates</p>
+<p>Read and write patterns</p>
+<p>Consistency requirements</p>
+<p>Denormalization trade-offs</p>
+<p>Choosing a shard key conceptually</p>
+<p>Read replicas and analytical workloads</p>
+<p>MongoDB versus relational databases for specific use cases</p>
+<p>Module 40. Distributed systems fundamentals</p>
+<p>This is an advanced conceptual module; students should understand the ideas before attempting distributed architectures.</p>
+<p>Monolith versus modular monolith versus microservices</p>
+<p>Service boundaries</p>
+<p>Synchronous versus asynchronous communication</p>
+<p>Message brokers and queues</p>
+<p>Event-driven architecture</p>
+<p>Eventual consistency</p>
+<p>Distributed transactions</p>
+<p>Saga pattern concepts</p>
+<p>Idempotency</p>
+<p>Duplicate message handling</p>
+<p>Retries and backoff</p>
+<p>Circuit breakers</p>
+<p>Service discovery concepts</p>
+<p>Centralized logging and tracing</p>
+<p>Failure isolation</p>
+<p>When a monolith is the better choice</p>
+<p>Module 41. Scaling backend applications</p>
+<p>Vertical and horizontal scaling</p>
+<p>Stateless application design</p>
+<p>Load balancers</p>
+<p>Multiple application instances</p>
+<p>Shared session stores</p>
+<p>Redis for shared state and caching</p>
+<p>Database connection-pool limits</p>
+<p>Rate limiting across instances</p>
+<p>Background worker scaling</p>
+<p>Queue backlogs</p>
+<p>Database bottlenecks</p>
+<p>CDN and reverse-proxy fundamentals</p>
+<p>Capacity planning</p>
+<p>Load and stress testing</p>
+<p>Cost and reliability trade-offs</p>
+<h3>Level 14 — Advanced professional topics</h3>
+<p>Module 42. API reliability and resilience</p>
+<p>Request and connection timeouts</p>
+<p>Graceful degradation</p>
+<p>Retry policies and exponential backoff</p>
+<p>Circuit breakers</p>
+<p>Bulkhead isolation</p>
+<p>Rate limiting by IP, user, and API key</p>
+<p>Distributed rate limiting</p>
+<p>Idempotency keys</p>
+<p>Duplicate request prevention</p>
+<p>Graceful shutdown and deployment draining</p>
+<p>Handling database outages</p>
+<p>Handling third-party API outages</p>
+<p>Service health and readiness</p>
+<p>Retry storms and cascading failures</p>
+<p>Recovery objectives: RTO and RPO</p>
+<p>Incident response and post-incident reviews</p>
+<p>Module 43. Auditability and business workflows</p>
+<p>Audit logs</p>
+<p>Who performed an action and when</p>
+<p>Immutable event history concepts</p>
+<p>Tracking status transitions</p>
+<p>Approval workflows</p>
+<p>Payment and refund states</p>
+<p>Transactional consistency</p>
+<p>Optimistic concurrency</p>
+<p>Record versioning</p>
+<p>Soft deletion and recovery</p>
+<p>Data retention and privacy</p>
+<p>Administrative action tracking</p>
+<p>Reconciliation jobs</p>
+<p>Reporting and exports</p>
+<p>Practical assignment: Implement an auditable fee-payment workflow with pending, successful, failed, and refunded states. Ensure repeated payment notifications do not produce duplicate records.</p>
+<p>Module 44. Advanced API patterns</p>
+<p>Bulk API operations</p>
+<p>Batch processing</p>
+<p>File import and export</p>
+<p>Long-running operations and job status endpoints</p>
+<p>Webhook subscriptions</p>
+<p>API keys and service-to-service authentication</p>
+<p>Request signing concepts</p>
+<p>Rate-limit headers</p>
+<p>Conditional updates</p>
+<p>Optimistic locking</p>
+<p>Deprecation and version compatibility</p>
+<p>GraphQL fundamentals as an alternative API style</p>
+<p>WebSocket APIs versus REST APIs</p>
+<p>API gateways and their purpose</p>
+<p>Module 45. Professional backend engineering practices</p>
+<p>Code readability and maintainability</p>
+<p>Naming conventions</p>
+<p>ESLint and Prettier</p>
+<p>Code review</p>
+<p>Technical documentation</p>
+<p>Architecture decision records</p>
+<p>Dependency upgrades</p>
+<p>Semantic versioning</p>
+<p>Secure package management</p>
+<p>Environment reproducibility</p>
+<p>Refactoring without breaking contracts</p>
+<p>Debugging production incidents</p>
+<p>Technical debt management</p>
+<p>Performance regression prevention</p>
+<p>Writing maintainable tests</p>
+<p>Project estimation and task breakdown</p>
+<h3>Level 15 — Capstone projects</h3>
+<p>Students should build projects in increasing order of difficulty. Each project should include a GitHub repository, documented API, database schema, validation, error handling, automated tests, and deployment instructions.</p>
+<p>Project 1 — Student Management REST API</p>
+<p>Beginner</p>
+<p>Features</p>
+<p>Student CRUD</p>
+<p>Course assignment</p>
+<p>Search, filters, and pagination</p>
+<p>Mongoose validation</p>
+<p>Standardized errors</p>
+<p>Postman collection</p>
+<p>Skills assessed: Node.js, Express routing, MongoDB CRUD, and Mongoose.</p>
+<p>Project 2 — Authentication and Authorization API</p>
+<p>Beginner–Intermediate</p>
+<p>Features</p>
+<p>Registration and login</p>
+<p>Secure password hashing</p>
+<p>Session or token-based authentication</p>
+<p>Password reset</p>
+<p>Roles and permissions</p>
+<p>Protected endpoints</p>
+<p>Skills assessed: authentication, security, validation, and access control.</p>
+<p>Project 3 — Learning Management System (LMS) API</p>
+<p>Intermediate</p>
+<p>Features</p>
+<p>Students, instructors, and courses</p>
+<p>Enrollment management</p>
+<p>Lessons and assessments</p>
+<p>Progress tracking</p>
+<p>File or media integration</p>
+<p>Role-based permissions</p>
+<p>Skills assessed: data modeling, service architecture, aggregation, and API design.</p>
+<p>Project 4 — E-commerce Backend</p>
+<p>Intermediate–Advanced</p>
+<p>Features</p>
+<p>Products and categories</p>
+<p>Inventory management</p>
+<p>Cart and order processing</p>
+<p>Payment gateway integration</p>
+<p>Verified payment webhooks</p>
+<p>Order history and refunds</p>
+<p>Audit trail and idempotency</p>
+<p>Skills assessed: business logic, transaction design, payment safety, and integration reliability.</p>
+<p>Project 5 — Real-time Chat and Notification API</p>
+<p>Advanced</p>
+<p>Features</p>
+<p>Socket.IO</p>
+<p>Private conversations and rooms</p>
+<p>Real-time notifications</p>
+<p>User presence</p>
+<p>Message persistence</p>
+<p>Access control and rate limiting</p>
+<p>Skills assessed: WebSockets, event-driven programming, and connection management.</p>
+<p>Project 6 — EDVENT Institute Management Backend</p>
+<p>Final capstone</p>
+<p>Features</p>
+<p>Multiple institutes or branches</p>
+<p>Student and instructor management</p>
+<p>Courses, batches, and enrollment</p>
+<p>Attendance and assessments</p>
+<p>Fees, receipts, and payment reconciliation</p>
+<p>Reports and aggregation pipelines</p>
+<p>Role-based access</p>
+<p>Audit logs</p>
+<p>Background certificate generation</p>
+<p>Automated tests and deployment</p>
+<p>Skills assessed: full-stack backend design, database architecture, security, reporting, and production readiness.</p>
+<p>Capstone acceptance criteria</p>
+<p>Every advanced project should meet these minimum requirements:</p>
+<p>Clear folder structure and separation of concerns</p>
+<p>Input validation on all relevant endpoints</p>
+<p>Appropriate HTTP status codes</p>
+<p>Centralized error handling</p>
+<p>Database indexes justified by query patterns</p>
+<p>Pagination on potentially large list endpoints</p>
+<p>Authentication and authorization where needed</p>
+<p>No committed credentials or production secrets</p>
+<p>Unit and integration tests</p>
+<p>API documentation and example requests</p>
+<p>GitHub README with setup instructions</p>
+<p>Deployed application with environment configuration</p>
+<p>Logging, health checks, and a backup/recovery plan appropriate to the project</p>
+<p>Recommended course duration and teaching plan</p>
+<p>For EDVENT, I recommend a 24-week structured course, assuming students already know basic JavaScript and can study or practise around 8–12 hours per week. Students starting JavaScript from zero will need additional preparation time.</p>
+<p>Weeks 1–2</p>
+<p>Backend foundations and Node.js</p>
+<p>HTTP, REST, JavaScript for backend, npm, core modules, async programming.</p>
+<p>Weeks 3–4</p>
+<p>Node.js server development</p>
+<p>HTTP module, filesystem, streams, events, error handling, native mini API.</p>
+<p>Weeks 5–7</p>
+<p>Express.js</p>
+<p>Routing, middleware, controllers, services, validation, error handling.</p>
+<p>Weeks 8–10</p>
+<p>MongoDB and Mongoose</p>
+<p>CRUD, schema design, relationships, queries, aggregation, indexes.</p>
+<p>Weeks 11–12</p>
+<p>REST API engineering</p>
+<p>Pagination, search, filtering, documentation, API contracts.</p>
+<p>Weeks 13–14</p>
+<p>Authentication and security</p>
+<p>Passwords, sessions or JWT, permissions, common API vulnerabilities.</p>
+<p>Weeks 15–16</p>
+<p>Advanced Node.js</p>
+<p>Event loop, concurrency, streams, debugging, logging, observability.</p>
+<p>Weeks 17–18</p>
+<p>Architecture and integrations</p>
+<p>Caching, queues, real-time events, payments, webhooks, external services.</p>
+<p>Weeks 19–20</p>
+<p>Testing and TypeScript</p>
+<p>Unit, integration and end-to-end tests; TypeScript fundamentals.</p>
+<p>Weeks 21–22</p>
+<p>Deployment and DevOps</p>
+<p>Production configuration, Docker, CI/CD, monitoring and recovery.</p>
+<p>Weeks 23–24</p>
+<p>Capstone and assessment</p>
+<p>Build, test, document, deploy and demonstrate a complete backend.</p>
+<p>Weekly classroom routine</p>
+<p>A repeatable structure will help students learn concepts and practise independently.</p>
+<div class="table-scroll"><table>
+<tr>
+<th>Session</th>
+<th>Focus</th>
+</tr>
+<tr>
+<td>Session 1</td>
+<td>Concept explanation and diagrams</td>
+</tr>
+<tr>
+<td>Session 2</td>
+<td>Instructor-led coding demonstration</td>
+</tr>
+<tr>
+<td>Session 3</td>
+<td>Guided practical exercises</td>
+</tr>
+<tr>
+<td>Session 4</td>
+<td>Independent assignment and debugging</td>
+</tr>
+<tr>
+<td>Weekly review</td>
+<td>Quiz, code review, and mini-project</td>
+</tr>
+</table></div>
+<p>Allocate roughly 30% of the time to concepts, 50% to hands-on coding, and 20% to assignments, testing, revision, and assessment.</p>
+<p>Student mastery tracker</p>
+<p>Use this checklist to monitor progress during the course.</p>
+<p>Backend course progress</p>
+<p>0 of 24 competencies completed</p>
+<p>0%</p>
+<p>Foundation</p>
+<p>JavaScript asynchronous programming</p>
+<p>HTTP and REST fundamentals</p>
+<p>Node.js environment and npm</p>
+<p>Node.js core modules and native HTTP server</p>
+<p>Express.js</p>
+<p>Routes and request/response handling</p>
+<p>Middleware and centralized errors</p>
+<p>Controllers, services, and validation</p>
+<p>MongoDB</p>
+<p>Native CRUD operations</p>
+<p>Data modeling and relationships</p>
+<p>Indexes and query optimization</p>
+<p>Aggregation pipelines</p>
+<p>Mongoose schemas and models</p>
+<p>API security</p>
+<p>Authentication and session/token management</p>
+<p>Role and resource-based authorization</p>
+<p>Input validation and NoSQL injection prevention</p>
+<p>Rate limiting and secure file uploads</p>
+<p>Advanced engineering</p>
+<p>Testing and API documentation</p>
+<p>TypeScript fundamentals</p>
+<p>Caching and background jobs</p>
+<p>Logging, monitoring, and performance</p>
+<p>Production</p>
+<p>Deployment and environment configuration</p>
+<p>Docker and CI/CD basics</p>
+<p>Database backup and recovery</p>
+<p>Complete deployed capstone project</p>
+<p>Copy checklistReset</p>
+<p>Mark a topic complete after you can explain it, implement it independently, and debug a relevant exercise.</p>
+<p>Official documentation and learning resources</p>
+<p>Start with the official documentation below. It should be the primary reference for lessons, demonstrations, and assignments.</p>
+<p>Node.js</p>
+<p>Runtime, core modules, HTTP, streams, testing, and command-line usage.</p>
+<p>Node.js documentation</p>
+<p>Express.js</p>
+<p>Routing, middleware, error handling, and production best practices.</p>
+<p>Express documentation</p>
+<p>MongoDB</p>
+<p>CRUD, aggregation, data modeling, indexes, transactions, and operations.</p>
+<p>MongoDB manual</p>
+<p>MongoDB University</p>
+<p>Mongoose</p>
+<p>Schemas, models, validation, population, queries, and transactions.</p>
+<p>Mongoose documentation</p>
+<p>TypeScript</p>
+<p>Type system, strict mode, and application architecture.</p>
+<p>TypeScript handbook</p>
+<p>OWASP</p>
+<p>Web application and API security risks and defensive practices.</p>
+<p>OWASP API Security Project</p>
+<p>Docker</p>
+<p>Containers, Dockerfiles, images, networking, and Compose.</p>
+<p>Docker documentation</p>
+<p>Final recommendation for EDVENT</p>
+<p>Structure this as three teachable milestones, rather than presenting every advanced topic to beginners at once.</p>
+<p>Backend Developer Foundation: Node.js, Express, MongoDB, Mongoose, REST APIs, CRUD, and validation.</p>
+<p>Job-Ready Backend Development: Authentication, authorization, security, testing, TypeScript, Git, deployment, and complete projects.</p>
+<p>Advanced Backend Engineering: Performance, caching, queues, real-time communication, observability, distributed systems, and production architecture.</p>
+<p>The most important outcome is independent implementation. A student who has memorized 45 modules but cannot design a data model, debug a failing API, write tests, or deploy a secure application is not yet job-ready. Use the capstone projects and mastery checklist to assess actual skills, not just syllabus completion.</p></article></div></div></section><section class="final-cta"><div class="container final-cta-inner"><div><div class="eyebrow">LEARN · BUILD · GROW</div><h2>Want to learn Backend Development: MERN?</h2><p>Ask EDVENT about batch availability, fees and learning options.</p></div><a class="btn btn-primary" href="../index.html#admissions" data-course="Backend Development: MERN">Enquire now ↗</a></div></section></main><footer class="site-footer"><div class="container footer-bottom"><span>© <span id="current-year"></span> EDVENT. All rights reserved.</span><span>Learn • Build • Grow</span></div></footer><a class="floating-whatsapp" href="#" data-whatsapp data-message="Hi EDVENT! I would like to enquire about Backend Development: MERN." aria-label="Chat with EDVENT on WhatsApp"><span>◉</span><span>Chat with us</span></a></body></html>

@@ -1,0 +1,1444 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Git &amp; GitHub Syllabus | EDVENT</title><meta name="description" content="Learn version control, commits, branches, merging, remotes, pull requests, recovery, collaboration, releases and automation. Explore the syllabus and download the EDVENT course document."><meta name="theme-color" content="#08275b"><link rel="canonical" href="https://edventindia.com/courses/git-github.html"><link rel="stylesheet" href="../styles.css"><link rel="icon" href="../assets/favicon.svg" type="image/svg+xml"><script src="../script.js" defer></script></head>
+<body><a class="skip-link" href="#main">Skip to content</a><header class="site-header"><div class="container nav-wrap"><a class="brand" href="../index.html"><img src="../assets/edvent-logo.png" alt="EDVENT — Computer & Technology Institute" class="brand-logo"><span class="brand-copy"><strong>EDVENT</strong><small>COMPUTER & TECHNOLOGY INSTITUTE</small></span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation"><span></span><span></span></button><nav id="primary-nav" class="primary-nav"><a href="../index.html#courses">All courses</a><a href="../index.html#about">Why EDVENT</a><a href="../index.html#admissions">Admissions</a><a class="btn btn-small btn-primary" href="../index.html#admissions">Enquire now ↗</a></nav></div></header>
+<main id="main"><section class="course-hero"><div class="container"><div class="eyebrow">DEVELOPER TOOLS · EDVENT SYLLABUS</div><h1>Git &amp; GitHub</h1><p>Learn version control, commits, branches, merging, remotes, pull requests, recovery, collaboration, releases and automation.</p><div class="hero-actions"><a class="btn btn-primary" href="../downloads/git-github-syllabus.docx" download>Download syllabus <span>↓</span></a><a class="btn btn-ghost" href="../index.html#admissions">Enquire about this course ↗</a></div><p class="syllabus-note">The syllabus below is transcribed from the uploaded course document. Download the original Word file for its original formatting and embedded visuals.</p></div></section><section class="section syllabus-section"><div class="container"><div class="syllabus-layout"><aside class="syllabus-sidebar"><h2>On this page</h2><p>Use your browser's Find command to locate a topic, or read the syllabus from top to bottom.</p><a class="btn btn-primary download-wide" href="../downloads/git-github-syllabus.docx" download>Download .docx ↓</a><a class="text-link" href="../index.html#courses">← Browse all courses</a></aside><article class="syllabus-content"><p>EDVENT — Complete Git and GitHub Master Syllabus</p>
+<p>Beginner to Advanced | Structured Learning Path</p>
+<p>This syllabus is designed for students learning web development, backend development, data analytics, and professional software engineering. It progresses from version-control fundamentals to advanced Git workflows, collaborative GitHub development, code reviews, automation, release management, and portfolio projects.</p>
+<p>The objective is for students to confidently manage real projects, collaborate with teams, resolve conflicts, recover from mistakes, and maintain professional GitHub repositories.</p>
+<h3>1. Course overview</h3>
+<p>Git — Version control system</p>
+<p>Track changes, create branches, merge work, inspect history, recover files, and manage code across different versions.</p>
+<p>GitHub — Collaborative development platform</p>
+<p>Host Git repositories, collaborate through pull requests, review code, manage issues, automate workflows, and publish project documentation.</p>
+<div class="table-scroll"><table>
+<tr>
+<th>Course detail</th>
+<th>Recommendation</th>
+</tr>
+<tr>
+<td>Target audience</td>
+<td>Complete beginners through intermediate developers</td>
+</tr>
+<tr>
+<td>Prerequisites</td>
+<td>Basic computer usage and file management</td>
+</tr>
+<tr>
+<td>Programming prerequisite</td>
+<td>None for Git fundamentals</td>
+</tr>
+<tr>
+<td>Recommended duration</td>
+<td>8–10 weeks</td>
+</tr>
+<tr>
+<td>Practice time</td>
+<td>5–8 hours per week</td>
+</tr>
+<tr>
+<td>Tools</td>
+<td>Git, GitHub, terminal, VS Code</td>
+</tr>
+<tr>
+<td>Primary outcome</td>
+<td>Independent Git user and confident GitHub collaborator</td>
+</tr>
+<tr>
+<td>Final project</td>
+<td>Professional repository with branches, pull requests, releases, and automated checks</td>
+</tr>
+</table></div>
+<p>Important distinction: Git and GitHub are not the same. Git is the version-control system; GitHub is a platform that hosts Git repositories and adds collaboration, project-management, security, and automation features.</p>
+<h3>2. Recommended learning sequence</h3>
+<h3>1. Version-control fundamentals</h3>
+<h3>2. Terminal and Git installation</h3>
+<h3>3. Repositories and basic commands</h3>
+<h3>4. Staging, commits, and history</h3>
+<h3>5. Branching and merging</h3>
+<h3>6. GitHub repositories and remotes</h3>
+<h3>7. Collaboration and pull requests</h3>
+<h3>8. Conflict resolution and recovery</h3>
+<h3>9. Advanced Git workflows</h3>
+<h3>10. GitHub Actions, releases, and security</h3>
+<h3>11. Portfolio projects and assessment</h3>
+<h3>Level 0 — Foundations and setup</h3>
+<p>Module 1. Introduction to version control</p>
+<h3>1.1 Why version control is needed</h3>
+<p>Problems with manually saving files such as final.html, final2.html, and final-final.html</p>
+<p>Tracking changes over time</p>
+<p>Recovering previous versions</p>
+<p>Collaborating without overwriting each other&#x27;s work</p>
+<p>Understanding project history</p>
+<p>Keeping a record of who changed what and when</p>
+<p>Supporting experimentation without risking the main project</p>
+<h3>1.2 Types of version control</h3>
+<p>Local version control</p>
+<p>Centralized version control</p>
+<p>Distributed version control</p>
+<p>Examples: Git, Subversion (SVN), Mercurial</p>
+<p>Why Git is widely used in software development</p>
+<h3>1.3 Git terminology</h3>
+<p>Repository</p>
+<p>Working directory</p>
+<p>Staging area</p>
+<p>Commit</p>
+<p>Branch</p>
+<p>Merge</p>
+<p>Remote</p>
+<p>Clone</p>
+<p>Fetch</p>
+<p>Pull</p>
+<p>Push</p>
+<p>HEAD</p>
+<p>Hash</p>
+<p>Tag</p>
+<p>Conflict</p>
+<p>Pull request</p>
+<h3>1.4 Git versus GitHub</h3>
+<p>Git as a local version-control tool</p>
+<p>GitHub as a hosted collaboration platform</p>
+<p>Local versus remote repositories</p>
+<p>GitHub alternatives: GitLab and Bitbucket</p>
+<p>GitHub website versus GitHub CLI versus Git integration in editors</p>
+<p>Practical exercise</p>
+<p>Create a folder with a few sample files and manually change them. Discuss why manually managing versions becomes difficult as the project grows.</p>
+<p>Learning outcome: Students can explain why Git exists and distinguish Git from GitHub.</p>
+<p>Module 2. Terminal and command-line fundamentals</p>
+<p>Git is primarily operated through a command-line interface, so students should learn basic terminal navigation before learning Git commands.</p>
+<h3>2.1 Essential terminal commands</h3>
+<div class="table-scroll"><table>
+<tr>
+<th>Command</th>
+<th>Purpose</th>
+</tr>
+<tr>
+<td>pwd</td>
+<td>Show current directory</td>
+</tr>
+<tr>
+<td>ls</td>
+<td>List files and directories</td>
+</tr>
+<tr>
+<td>cd</td>
+<td>Change directory</td>
+</tr>
+<tr>
+<td>mkdir</td>
+<td>Create a directory</td>
+</tr>
+<tr>
+<td>touch</td>
+<td>Create an empty file on supported systems</td>
+</tr>
+<tr>
+<td>cat</td>
+<td>Display file contents</td>
+</tr>
+<tr>
+<td>cp</td>
+<td>Copy files</td>
+</tr>
+<tr>
+<td>mv</td>
+<td>Move or rename files</td>
+</tr>
+<tr>
+<td>rm</td>
+<td>Delete files</td>
+</tr>
+<tr>
+<td>clear</td>
+<td>Clear the terminal screen</td>
+</tr>
+</table></div>
+<p>Also teach:</p>
+<p>Absolute versus relative paths</p>
+<p>Hidden files</p>
+<p>File extensions</p>
+<p>Paths containing spaces</p>
+<p>Command arguments and flags</p>
+<p>Tab completion</p>
+<p>Quoting paths</p>
+<p>Command history</p>
+<p>Standard output and error at a basic level</p>
+<p>Safety lesson: Explain destructive commands before asking students to use rm, git reset --hard, or other commands that can discard work.</p>
+<p>Module 3. Installing and configuring Git</p>
+<h3>3.1 Installation</h3>
+<p>Installing Git on Windows</p>
+<p>Installing Git on macOS</p>
+<p>Installing Git on Linux</p>
+<p>Verifying the installation with git --version</p>
+<p>Git Bash versus PowerShell versus Terminal</p>
+<p>Understanding the Git executable</p>
+<h3>3.2 Initial configuration</h3>
+<p>git config</p>
+<p>Setting the user name</p>
+<p>Setting the email address</p>
+<p>Checking configuration values</p>
+<p>System, global, and repository-level configuration</p>
+<p>Configuration precedence</p>
+<p>Default branch name</p>
+<p>Line-ending configuration</p>
+<p>Choosing an editor for commit messages</p>
+<p>Viewing configuration with git config --list</p>
+<p>Example:</p>
+<p>git config --global user.name &quot;Your Name&quot;</p>
+<p>git config --global user.email &quot;you@example.com&quot;</p>
+<p>git config --global init.defaultBranch main</p>
+<p>Use an email address appropriate for the student&#x27;s GitHub commits. Students who prefer not to expose their personal email can configure a GitHub-provided private commit email.</p>
+<h3>3.3 Identity and authentication</h3>
+<p>Commit identity versus GitHub account identity</p>
+<p>HTTPS authentication</p>
+<p>Personal access tokens</p>
+<p>SSH keys</p>
+<p>Credential managers</p>
+<p>GitHub CLI authentication</p>
+<p>Why GitHub account passwords should not be used as ordinary Git HTTPS passwords</p>
+<p>Never sharing access tokens or private SSH keys</p>
+<p>Practical exercise</p>
+<p>Install Git, configure the author identity, verify settings, and make a test commit.</p>
+<h3>Level 1 — Git fundamentals</h3>
+<p>Module 4. Creating repositories and understanding Git&#x27;s workflow</p>
+<h3>4.1 Creating a repository</h3>
+<p>What a repository contains</p>
+<p>Initializing a repository using git init</p>
+<p>Understanding the .git directory</p>
+<p>Cloning an existing repository using git clone</p>
+<p>Initializing Git in an existing project</p>
+<p>Understanding the default branch</p>
+<p>Repository root and subdirectories</p>
+<p>Working with nested folders</p>
+<h3>4.2 The three main areas in Git</h3>
+<p>Working directory</p>
+<p>Files you create or modify</p>
+<p>Staging area / index</p>
+<p>Changes selected for the next commit</p>
+<p>Local repository</p>
+<p>Committed snapshots and history</p>
+<p>Remote repositories, such as GitHub, are separate and are synchronized using commands such as fetch, pull, and push.</p>
+<h3>4.3 Essential commands</h3>
+<p>git init</p>
+<p>git clone</p>
+<p>git status</p>
+<p>git add</p>
+<p>git commit</p>
+<p>git diff</p>
+<p>git log</p>
+<p>git show</p>
+<p>git help</p>
+<h3>4.4 Understanding git status</h3>
+<p>Untracked files</p>
+<p>Modified files</p>
+<p>Staged changes</p>
+<p>Unmodified files</p>
+<p>Changes ahead of or behind a remote branch</p>
+<p>Interpreting Git&#x27;s suggested next steps</p>
+<h3>4.5 First repository exercise</h3>
+<p>mkdir git-practice</p>
+<p>cd git-practice</p>
+<p>git init</p>
+<p>echo &quot;# Git Practice&quot; &gt; README.md</p>
+<p>git status</p>
+<p>git add README.md</p>
+<p>git commit -m &quot;Add project README&quot;</p>
+<p>git log --oneline</p>
+<p>Students should repeat this exercise without looking at the instructions and explain each command in their own words.</p>
+<p>Module 5. Staging, commits, and change tracking</p>
+<h3>5.1 The staging area</h3>
+<p>Why Git uses staging</p>
+<p>Staging a new file</p>
+<p>Staging a modified file</p>
+<p>Staging multiple files</p>
+<p>Staging selected changes</p>
+<p>Unstaging files</p>
+<p>Staging versus committing</p>
+<p>Reviewing staged and unstaged changes separately</p>
+<h3>5.2 Commit fundamentals</h3>
+<p>What a commit represents</p>
+<p>Commit messages</p>
+<p>Commit hashes</p>
+<p>Parent commits</p>
+<p>Commit history</p>
+<p>Author and committer information</p>
+<p>Snapshot-based version control</p>
+<p>Why a commit is not simply a list of changed lines</p>
+<h3>5.3 Essential commit commands</h3>
+<p>git add filename</p>
+<p>git add .</p>
+<p>git add -A</p>
+<p>git add -p</p>
+<p>git commit -m &quot;message&quot;</p>
+<p>git commit</p>
+<p>git commit --amend</p>
+<p>git status --short</p>
+<p>Teach students to inspect the repository before staging. They should understand what git add . will include rather than running it automatically.</p>
+<h3>5.4 Commit message conventions</h3>
+<p>Clear and specific messages</p>
+<p>Imperative phrasing</p>
+<p>Short subject lines</p>
+<p>Optional detailed commit descriptions</p>
+<p>Avoiding messages such as changes, final, or fix</p>
+<p>Conventional Commits basics:</p>
+<p>feat:</p>
+<p>fix:</p>
+<p>docs:</p>
+<p>style:</p>
+<p>refactor:</p>
+<p>test:</p>
+<p>chore:</p>
+<p>Conventional Commits is a convention, not a requirement imposed by Git.</p>
+<h3>5.5 Viewing changes</h3>
+<p>git diff</p>
+<p>git diff --staged</p>
+<p>git diff HEAD</p>
+<p>git show</p>
+<p>git log -p</p>
+<p>git log --stat</p>
+<p>Comparing files before committing</p>
+<p>Understanding additions, deletions, and context lines</p>
+<p>Practical assignment</p>
+<p>Create a small HTML/CSS project. Make five meaningful commits, inspect each diff, amend a mistaken commit message, and explain the final history.</p>
+<p>Module 6. .gitignore and repository hygiene</p>
+<h3>6.1 Ignore rules</h3>
+<p>What .gitignore does</p>
+<p>Ignore file patterns</p>
+<p>Wildcards and directory patterns</p>
+<p>Ignoring files by extension</p>
+<p>Ignoring generated files</p>
+<p>Root-relative patterns</p>
+<p>Exceptions using !</p>
+<p>Global Git ignore configuration</p>
+<p>OS-specific and editor-specific files</p>
+<h3>6.2 What should usually be ignored</h3>
+<p>node_modules/</p>
+<p>Build output such as dist/</p>
+<p>Temporary files</p>
+<p>Log files</p>
+<p>Local editor settings when not shared</p>
+<p>Local environment files such as .env</p>
+<p>Generated caches</p>
+<p>Operating-system metadata files</p>
+<h3>6.3 Important limitations</h3>
+<p>.gitignore does not remove a file already tracked by Git.</p>
+<p>If a secret is committed, ignoring it later does not erase it from repository history.</p>
+<p>Use git rm --cached when a tracked file should stop being tracked while remaining on disk.</p>
+<p>Exposed credentials must be revoked or rotated, not merely deleted from the latest commit.</p>
+<p>Practical assignment</p>
+<p>Create a Node.js sample repository with a correct .gitignore, a safe .env.example, and no real credentials.</p>
+<h3>Level 2 — Git history and branches</h3>
+<p>Module 7. Understanding Git history</p>
+<h3>7.1 History inspection</h3>
+<p>git log</p>
+<p>git log --oneline</p>
+<p>git log --graph --oneline --all</p>
+<p>git show</p>
+<p>git diff commit1 commit2</p>
+<p>git blame</p>
+<p>git reflog</p>
+<p>git log --author</p>
+<p>git log --since</p>
+<p>git log -- path/to/file</p>
+<h3>7.2 Git references</h3>
+<p>Commit hashes</p>
+<p>Branch names</p>
+<p>Tags</p>
+<p>HEAD</p>
+<p>Parent references</p>
+<p>HEAD~1</p>
+<p>HEAD~2</p>
+<p>HEAD^</p>
+<p>Symbolic references</p>
+<p>Local references versus remote-tracking references</p>
+<h3>7.3 Comparing versions</h3>
+<p>Comparing two commits</p>
+<p>Comparing branches</p>
+<p>Inspecting a specific file&#x27;s history</p>
+<p>Identifying when a bug was introduced</p>
+<p>Reviewing changes before merging</p>
+<p>Understanding commit ancestry</p>
+<p>Practical assignment</p>
+<p>Given a repository with several commits, identify which commit introduced a bug and show the exact changed lines.</p>
+<p>Module 8. Branching fundamentals</p>
+<h3>8.1 What branches are</h3>
+<p>Branches as movable references to commits</p>
+<p>Why teams use branches</p>
+<p>Main branch versus feature branches</p>
+<p>Isolated experimentation</p>
+<p>Branch naming conventions</p>
+<p>Short-lived versus long-lived branches</p>
+<h3>8.2 Branch commands</h3>
+<p>git branch</p>
+<p>git branch branch-name</p>
+<p>git switch branch-name</p>
+<p>git switch -c branch-name</p>
+<p>git checkout branch-name</p>
+<p>git branch -d branch-name</p>
+<p>git branch -D branch-name</p>
+<p>git branch -m old-name new-name</p>
+<p>git branch --all</p>
+<p>git branch --merged</p>
+<p>Prefer git switch for switching branches and git restore for restoring files when teaching modern Git; git checkout remains useful to recognize in existing documentation and repositories.</p>
+<h3>8.3 Feature-branch workflow</h3>
+<p>Start from an up-to-date base branch.</p>
+<p>Create a feature branch.</p>
+<p>Make a small set of changes.</p>
+<p>Stage and commit the work.</p>
+<p>Review the diff.</p>
+<p>Merge or submit a pull request.</p>
+<p>Delete the feature branch when no longer needed.</p>
+<h3>8.4 Branch naming</h3>
+<p>Examples:</p>
+<p>feature/student-registration</p>
+<p>fix/login-validation</p>
+<p>docs/setup-guide</p>
+<p>refactor/user-service</p>
+<p>test/payment-api</p>
+<p>Practical assignment</p>
+<p>Create three feature branches for an existing website. Make separate changes, switch between branches, and explain how each branch maintains its own history.</p>
+<p>Module 9. Merging branches</p>
+<h3>9.1 Merge fundamentals</h3>
+<p>What merging means</p>
+<p>Fast-forward merges</p>
+<p>Three-way merges</p>
+<p>Merge commits</p>
+<p>Common ancestors</p>
+<p>Branch divergence</p>
+<p>Merging feature branches into the main branch</p>
+<p>Deleting merged branches</p>
+<h3>9.2 Merge commands</h3>
+<p>git merge branch-name</p>
+<p>git merge --no-ff branch-name</p>
+<p>git merge --abort</p>
+<p>git branch --merged</p>
+<h3>9.3 Merge conflicts</h3>
+<p>Why conflicts occur</p>
+<p>Conflict markers</p>
+<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt;, =======, and &gt;&gt;&gt;&gt;&gt;&gt;&gt;</p>
+<p>Resolving conflicts manually</p>
+<p>Choosing one side versus combining both changes</p>
+<p>Removing conflict markers</p>
+<p>Staging the resolved file</p>
+<p>Completing the merge</p>
+<p>Aborting a merge safely</p>
+<p>Testing after conflict resolution</p>
+<h3>9.4 Conflict-resolution procedure</h3>
+<p>Read git status.</p>
+<p>Open each conflicted file.</p>
+<p>Understand both changes before editing.</p>
+<p>Produce the correct combined result.</p>
+<p>Remove all conflict markers.</p>
+<p>Run relevant tests.</p>
+<p>Stage the resolved files.</p>
+<p>Complete the merge.</p>
+<p>Review the resulting history.</p>
+<p>Practical assignment</p>
+<p>Have two students change the same lines in separate branches, then merge the branches and resolve the conflict collaboratively.</p>
+<h3>Level 3 — GitHub fundamentals</h3>
+<p>Module 10. Introduction to GitHub</p>
+<h3>10.1 GitHub account and profile</h3>
+<p>Creating a GitHub account</p>
+<p>Username and profile URL</p>
+<p>Profile README</p>
+<p>Public versus private repositories</p>
+<p>GitHub profile settings</p>
+<p>Email privacy settings</p>
+<p>Two-factor authentication</p>
+<p>Recovery codes</p>
+<p>Passkeys and other supported authentication options</p>
+<p>Personal access tokens and their permissions</p>
+<h3>10.2 GitHub interface</h3>
+<p>Dashboard</p>
+<p>Repository home page</p>
+<p>Code tab</p>
+<p>Issues</p>
+<p>Pull requests</p>
+<p>Actions</p>
+<p>Projects</p>
+<p>Wiki</p>
+<p>Releases</p>
+<p>Insights</p>
+<p>Settings</p>
+<p>Notifications</p>
+<p>Search and navigation</p>
+<h3>10.3 Repository creation</h3>
+<p>Creating a repository on GitHub</p>
+<p>Repository name and description</p>
+<p>Public versus private visibility</p>
+<p>Initializing with a README</p>
+<p>Adding a .gitignore</p>
+<p>Choosing a license</p>
+<p>Creating a repository with no initial files</p>
+<p>Repository naming conventions</p>
+<p>Repository settings and permissions</p>
+<h3>10.4 README writing</h3>
+<p>Project title</p>
+<p>Project purpose</p>
+<p>Feature list</p>
+<p>Screenshots</p>
+<p>Installation instructions</p>
+<p>Configuration requirements</p>
+<p>Usage examples</p>
+<p>API documentation</p>
+<p>Technology stack</p>
+<p>Contribution guidelines</p>
+<p>License</p>
+<p>Contact or support information</p>
+<h3>10.5 Markdown for GitHub</h3>
+<p>Headings</p>
+<p>Paragraphs and line breaks</p>
+<p>Bold and italic formatting</p>
+<p>Ordered and unordered lists</p>
+<p>Links and images</p>
+<p>Code spans and code blocks</p>
+<p>Tables</p>
+<p>Task lists</p>
+<p>Blockquotes</p>
+<p>Relative links</p>
+<p>Anchors</p>
+<p>Alerts where supported</p>
+<p>Mermaid diagrams where supported</p>
+<p>Basic HTML support and its limitations</p>
+<p>Practical assignment</p>
+<p>Create a public repository for a small project with a professional README, screenshots, installation steps, and a license appropriate to the project.</p>
+<p>Module 11. Connecting Git to GitHub</p>
+<h3>11.1 Local repository to remote repository</h3>
+<p>What a remote is</p>
+<p>origin</p>
+<p>Adding a remote</p>
+<p>Inspecting remote URLs</p>
+<p>HTTPS versus SSH</p>
+<p>Authentication</p>
+<p>Pushing an existing repository</p>
+<p>Cloning a remote repository</p>
+<p>Changing a remote URL</p>
+<h3>11.2 Essential commands</h3>
+<p>git remote -v</p>
+<p>git remote add origin &lt;repository-url&gt;</p>
+<p>git remote set-url origin &lt;repository-url&gt;</p>
+<p>git push -u origin main</p>
+<p>git clone &lt;repository-url&gt;</p>
+<p>git fetch origin</p>
+<p>git pull origin main</p>
+<p>Students should replace the placeholder URL with their own repository URL.</p>
+<h3>11.3 Understanding remotes</h3>
+<p>Local branch versus remote branch</p>
+<p>Remote-tracking branches such as origin/main</p>
+<p>Upstream tracking</p>
+<p>First push with -u</p>
+<p>Push versus fetch</p>
+<p>Fetch versus pull</p>
+<p>Push rejection</p>
+<p>Non-fast-forward errors</p>
+<p>Diverged branches</p>
+<p>Synchronizing safely</p>
+<h3>11.4 Common mistakes</h3>
+<p>Pushing the wrong branch</p>
+<p>Creating unrelated local and remote histories</p>
+<p>Forgetting to fetch recent changes</p>
+<p>Using force-push without understanding its impact</p>
+<p>Authentication failures</p>
+<p>Pushing secrets or generated files</p>
+<p>Accidentally making a private project public</p>
+<p>Practical assignment</p>
+<p>Create a repository locally, connect it to GitHub, push the main branch, clone it into another directory, make a change, and synchronize both copies.</p>
+<p>Module 12. GitHub collaboration and permissions</p>
+<h3>12.1 Collaboration models</h3>
+<p>Working alone</p>
+<p>Collaborator-based access</p>
+<p>Organization repositories</p>
+<p>Team-based permissions</p>
+<p>Fork-based collaboration</p>
+<p>Open-source contribution workflow</p>
+<p>Repository ownership and responsibility</p>
+<h3>12.2 Permissions</h3>
+<p>Read</p>
+<p>Triage</p>
+<p>Write</p>
+<p>Maintain</p>
+<p>Admin</p>
+<p>Organization roles</p>
+<p>Team permissions</p>
+<p>Repository visibility</p>
+<p>Branch protection and rulesets</p>
+<p>Least-privilege access</p>
+<h3>12.3 Forking</h3>
+<p>What a fork is</p>
+<p>Fork versus clone</p>
+<p>Forking a public repository</p>
+<p>Cloning a fork</p>
+<p>Configuring origin and upstream</p>
+<p>Fetching upstream changes</p>
+<p>Synchronizing a fork</p>
+<p>Contributing back through a pull request</p>
+<p>Practical assignment</p>
+<p>One student creates a repository and another contributes through a fork. Both students should explain which repository is their origin and which is upstream.</p>
+<h3>Level 4 — Professional collaboration workflow</h3>
+<p>Module 13. Pull requests</p>
+<h3>13.1 Pull request fundamentals</h3>
+<p>What a pull request (PR) is</p>
+<p>Why teams use pull requests</p>
+<p>Source and target branches</p>
+<p>Opening a PR</p>
+<p>PR titles and descriptions</p>
+<p>Draft pull requests</p>
+<p>Reviewers and assignees</p>
+<p>Labels</p>
+<p>Linking issues</p>
+<p>Reviewing changed files</p>
+<p>Updating a PR after feedback</p>
+<p>Merging a PR</p>
+<p>Closing a PR without merging</p>
+<h3>13.2 Pull request review process</h3>
+<p>Reviewing the diff</p>
+<p>Understanding context before commenting</p>
+<p>Leaving inline comments</p>
+<p>Requesting changes</p>
+<p>Approving changes</p>
+<p>Resolving review conversations</p>
+<p>Re-requesting reviews after updates</p>
+<p>Handling stale approvals according to repository rules</p>
+<p>Testing changes locally</p>
+<p>Giving constructive feedback</p>
+<h3>13.3 Merge methods on GitHub</h3>
+<p>Merge commit</p>
+<p>Squash and merge</p>
+<p>Rebase and merge</p>
+<p>Choosing a merge strategy</p>
+<p>Preserving meaningful history</p>
+<p>Branch deletion after merge</p>
+<p>Keeping the base branch up to date</p>
+<h3>13.4 PR best practices</h3>
+<p>Small, focused pull requests</p>
+<p>Clear scope and motivation</p>
+<p>Screenshots for UI changes</p>
+<p>Test instructions</p>
+<p>Breaking-change notes</p>
+<p>Security considerations</p>
+<p>Linking issues</p>
+<p>Avoiding unrelated formatting changes</p>
+<p>Waiting for required checks</p>
+<p>Keeping review conversations professional</p>
+<p>Practical assignment</p>
+<p>Students submit a feature through a pull request. A reviewer checks the code, requests one change, and approves the updated PR.</p>
+<p>Module 14. Issues and project management</p>
+<h3>14.1 GitHub Issues</h3>
+<p>Creating an issue</p>
+<p>Writing a reproducible bug report</p>
+<p>Feature requests</p>
+<p>Tasks and technical debt</p>
+<p>Labels</p>
+<p>Assignees</p>
+<p>Milestones</p>
+<p>Issue templates</p>
+<p>Closing issues automatically through supported keywords in commits or PRs</p>
+<h3>14.2 GitHub Projects</h3>
+<p>Boards and tables</p>
+<p>Status fields</p>
+<p>Priority and estimates</p>
+<p>Views and filters</p>
+<p>Grouping and sorting</p>
+<p>Iterations and milestones</p>
+<p>Linking issues and PRs</p>
+<p>Tracking project progress</p>
+<p>Basic sprint planning</p>
+<h3>14.3 Project workflow</h3>
+<p>Breaking features into issues</p>
+<p>Assigning ownership</p>
+<p>Branching from an issue</p>
+<p>Linking the PR to the issue</p>
+<p>Testing and review</p>
+<p>Closing the issue</p>
+<p>Tracking incomplete work</p>
+<p>Practical assignment</p>
+<p>Create a project board for a student management application, add 10 issues, assign owners, and close issues through completed pull requests.</p>
+<p>Module 15. Team workflows and branching strategies</p>
+<h3>15.1 GitHub Flow</h3>
+<p>Main branch kept deployable</p>
+<p>Short-lived feature branches</p>
+<p>Pull requests</p>
+<p>Automated checks</p>
+<p>Review and merge</p>
+<p>Deployment after merge</p>
+<p>When GitHub Flow is suitable</p>
+<h3>15.2 Git Flow</h3>
+<p>Main and develop branches</p>
+<p>Feature branches</p>
+<p>Release branches</p>
+<p>Hotfix branches</p>
+<p>Release tagging</p>
+<p>Workflow complexity</p>
+<p>When this model is appropriate and when it is unnecessarily complicated</p>
+<h3>15.3 Trunk-based development</h3>
+<p>Small changes</p>
+<p>Short-lived branches</p>
+<p>Frequent integration</p>
+<p>Feature flags</p>
+<p>Automated testing</p>
+<p>Minimizing long-running divergence</p>
+<h3>15.4 Choosing a workflow</h3>
+<p>Team size</p>
+<p>Release frequency</p>
+<p>Testing maturity</p>
+<p>Product risk</p>
+<p>Support for multiple versions</p>
+<p>Continuous delivery requirements</p>
+<p>Teaching recommendation: Start with GitHub Flow. Introduce Git Flow and trunk-based development as alternatives, not mandatory steps every team must adopt.</p>
+<h3>Level 5 — Recovering from mistakes and advanced Git</h3>
+<p>Module 16. Undoing changes safely</p>
+<p>This is one of the most important modules. Students should learn the difference between modifying the working directory, changing the staging area, and rewriting committed history.</p>
+<h3>16.1 Undoing uncommitted changes</h3>
+<p>Discarding changes in one file</p>
+<p>Unstaging a file</p>
+<p>Restoring a deleted file</p>
+<p>Discarding all local changes</p>
+<p>Understanding destructive operations</p>
+<p>Recovering an accidentally overwritten file where possible</p>
+<p>Commands to learn:</p>
+<p>git restore filename</p>
+<p>git restore --staged filename</p>
+<p>git diff</p>
+<p>git status</p>
+<h3>16.2 Undoing commits</h3>
+<p>git commit --amend</p>
+<p>git revert</p>
+<p>git reset --soft</p>
+<p>git reset --mixed</p>
+<p>git reset --hard</p>
+<p>Understanding what each operation changes</p>
+<p>Recovering commits with git reflog</p>
+<p>Public history versus private local history</p>
+<h3>16.3 Reset versus revert</h3>
+<div class="table-scroll"><table>
+<tr>
+<th>Operation</th>
+<th>Main purpose</th>
+<th>Effect on history</th>
+</tr>
+<tr>
+<td>git reset --soft</td>
+<td>Move branch pointer while keeping changes staged</td>
+<td>Rewrites local branch history</td>
+</tr>
+<tr>
+<td>git reset --mixed</td>
+<td>Move branch pointer and leave changes unstaged</td>
+<td>Rewrites local branch history</td>
+</tr>
+<tr>
+<td>git reset --hard</td>
+<td>Move branch pointer and discard tracked working-tree changes</td>
+<td>Rewrites local branch history; potentially destructive</td>
+</tr>
+<tr>
+<td>git revert</td>
+<td>Create a new commit that reverses an earlier commit</td>
+<td>Preserves existing history</td>
+</tr>
+</table></div>
+<p>Teach students to prefer git revert when undoing changes already shared with a team, unless the team has explicitly agreed on a different history-rewriting procedure.</p>
+<h3>16.4 Recovering mistakes</h3>
+<p>Accidentally deleting a branch</p>
+<p>Losing a commit after reset</p>
+<p>Reflog basics</p>
+<p>Recovering a previous branch position</p>
+<p>Aborting a merge</p>
+<p>Aborting a rebase</p>
+<p>Recovering a stashed change</p>
+<p>When recovery may be impossible</p>
+<p>Avoiding risky cleanup commands until work is backed up</p>
+<p>Practical assignment</p>
+<p>Create a test repository, intentionally make five mistakes, and recover from each using the correct command. Students must explain the difference between undoing a change and rewriting history.</p>
+<p>Module 17. Stashing changes</p>
+<h3>17.1 Stash fundamentals</h3>
+<p>What a stash is</p>
+<p>Temporarily setting work aside</p>
+<p>Stashing tracked changes</p>
+<p>Including untracked files</p>
+<p>Naming stashes</p>
+<p>Listing stashes</p>
+<p>Applying a stash</p>
+<p>Popping a stash</p>
+<p>Dropping a stash</p>
+<p>Clearing stashes and the risks involved</p>
+<h3>17.2 Stash commands</h3>
+<p>git stash</p>
+<p>git stash push -m &quot;Work in progress&quot;</p>
+<p>git stash list</p>
+<p>git stash show -p</p>
+<p>git stash apply</p>
+<p>git stash pop</p>
+<p>git stash drop</p>
+<h3>17.3 Practical scenarios</h3>
+<p>Switching branches while work is incomplete</p>
+<p>Applying a stash to another branch</p>
+<p>Resolving conflicts when applying a stash</p>
+<p>Recovering from an accidental stash drop where possible</p>
+<p>When a temporary commit is better than a stash</p>
+<p>Module 18. Rebasing and rewriting history</p>
+<h3>18.1 Rebase fundamentals</h3>
+<p>What rebasing does</p>
+<p>Replaying commits onto a new base</p>
+<p>Rebase versus merge</p>
+<p>Linear history</p>
+<p>Commit ancestry</p>
+<p>Why commit hashes change during rewriting</p>
+<p>Rebase conflicts</p>
+<p>Continuing and aborting a rebase</p>
+<h3>18.2 Essential commands</h3>
+<p>git fetch origin</p>
+<p>git rebase origin/main</p>
+<p>git rebase --continue</p>
+<p>git rebase --abort</p>
+<h3>18.3 Interactive rebase</h3>
+<p>git rebase -i</p>
+<p>Reordering commits</p>
+<p>Squashing commits</p>
+<p>Fixing up commits</p>
+<p>Rewording messages</p>
+<p>Dropping commits</p>
+<p>Editing commits</p>
+<p>Splitting commits conceptually</p>
+<p>Cleaning up local feature-branch history</p>
+<h3>18.4 Important safety rules</h3>
+<p>Avoid rebasing shared commits without team agreement.</p>
+<p>Rebase is not a substitute for understanding merge conflicts.</p>
+<p>Do not force-push to shared branches casually.</p>
+<p>If rewriting your own remote feature branch is necessary, understand --force-with-lease before using it.</p>
+<p>Protect important work before performing history-rewriting operations.</p>
+<p>Practical assignment</p>
+<p>Create a feature branch with poorly organized commits, clean up its local history through interactive rebase, and merge the resulting branch into the main branch.</p>
+<p>Module 19. Cherry-picking commits</p>
+<h3>19.1 Concepts</h3>
+<p>What cherry-picking does</p>
+<p>Applying a specific commit to another branch</p>
+<p>Cherry-picking one commit</p>
+<p>Cherry-picking multiple commits</p>
+<p>Resolving conflicts</p>
+<p>Continuing or aborting a cherry-pick</p>
+<p>Avoiding duplicate or confusing history</p>
+<h3>19.2 Commands</h3>
+<p>git cherry-pick &lt;commit-hash&gt;</p>
+<p>git cherry-pick --continue</p>
+<p>git cherry-pick --abort</p>
+<h3>19.3 Real-world use cases</h3>
+<p>Applying a bug fix to a release branch</p>
+<p>Moving a small fix between branches</p>
+<p>Backporting security fixes</p>
+<p>Why merging or rebasing the whole branch may be more appropriate in other cases</p>
+<p>Module 20. Tags and releases</p>
+<h3>20.1 Git tags</h3>
+<p>Lightweight tags</p>
+<p>Annotated tags</p>
+<p>Semantic versioning</p>
+<p>Version numbering</p>
+<p>Creating tags</p>
+<p>Listing tags</p>
+<p>Inspecting tags</p>
+<p>Deleting tags</p>
+<p>Pushing tags to a remote</p>
+<p>Checking out a tagged version</p>
+<h3>20.2 GitHub Releases</h3>
+<p>Creating a release from a tag</p>
+<p>Release title and description</p>
+<p>Release notes</p>
+<p>Draft releases</p>
+<p>Pre-releases</p>
+<p>Attaching binaries and artifacts</p>
+<p>Linking changes to merged pull requests</p>
+<p>Release history</p>
+<p>Versioning a project</p>
+<p>Rollback planning</p>
+<p>Practical assignment</p>
+<p>Release version v1.0.0 of a sample project with a changelog, tag, and GitHub Release page.</p>
+<h3>Level 6 — Git internals and advanced workflows</h3>
+<p>Module 21. How Git works internally</p>
+<h3>21.1 Git object model</h3>
+<p>Blob objects</p>
+<p>Tree objects</p>
+<p>Commit objects</p>
+<p>Annotated tag objects</p>
+<p>Object hashes</p>
+<p>Object relationships</p>
+<p>Snapshot model</p>
+<p>Content-addressable storage</p>
+<p>Object database</p>
+<p>.git/objects</p>
+<p>References and branch pointers</p>
+<h3>21.2 Internal inspection commands</h3>
+<p>git cat-file</p>
+<p>git ls-tree</p>
+<p>git rev-parse</p>
+<p>git show-ref</p>
+<p>git count-objects</p>
+<p>git fsck</p>
+<p>git reflog</p>
+<p>Students should understand these commands conceptually and use them in practice exercises rather than memorize them all.</p>
+<h3>21.3 Git&#x27;s index</h3>
+<p>What the index stores</p>
+<p>Staging entries</p>
+<p>Staged content versus working-tree content</p>
+<p>Partial staging</p>
+<p>Index and commit snapshots</p>
+<p>Inspecting the index conceptually</p>
+<h3>21.4 Git storage and maintenance</h3>
+<p>Loose objects and packfiles</p>
+<p>Compression</p>
+<p>Garbage collection</p>
+<p>Object reachability</p>
+<p>Dangling objects</p>
+<p>Repository integrity</p>
+<p>Why .git should not be manually edited</p>
+<p>Module 22. Fetching, pulling, and synchronizing</p>
+<h3>22.1 Remote synchronization</h3>
+<p>git fetch</p>
+<p>git pull</p>
+<p>git push</p>
+<p>Remote-tracking branches</p>
+<p>Upstream tracking</p>
+<p>Local versus remote history</p>
+<p>Divergent branches</p>
+<p>Fast-forward updates</p>
+<p>Fetching a specific branch</p>
+<p>Pruning deleted remote-tracking branches</p>
+<h3>22.2 Pull strategies</h3>
+<p>Pull using merge</p>
+<p>Pull using rebase</p>
+<p>Fast-forward-only pulls</p>
+<p>Configuring default pull behavior</p>
+<p>Resolving divergence</p>
+<p>Reviewing remote changes before integration</p>
+<h3>22.3 Practical workflow</h3>
+<p>git status</p>
+<p>git fetch origin</p>
+<p>git log --oneline --graph --all</p>
+<p>git diff main origin/main</p>
+<p>git pull --ff-only origin main</p>
+<p>Explain that the last command succeeds only when a fast-forward is possible. If local and remote histories have diverged, students should inspect the situation before choosing a merge or rebase strategy.</p>
+<p>Module 23. Advanced repository management</p>
+<h3>23.1 Multiple repositories and branches</h3>
+<p>Multiple remotes</p>
+<p>Forks and upstream repositories</p>
+<p>Tracking branches</p>
+<p>Branch pruning</p>
+<p>Renaming branches</p>
+<p>Deleting local and remote branches</p>
+<p>Recovering deleted branches</p>
+<p>Working with multiple versions of a project</p>
+<h3>23.2 Special Git features</h3>
+<p>Submodules</p>
+<p>Subtrees</p>
+<p>Sparse checkout</p>
+<p>Partial clone concepts</p>
+<p>Shallow clones</p>
+<p>Worktrees</p>
+<p>Large File Storage (Git LFS)</p>
+<p>Monorepos versus multiple repositories</p>
+<p>When these features are useful and when they introduce unnecessary complexity</p>
+<h3>23.3 Git worktrees</h3>
+<p>Why worktrees are useful</p>
+<p>Adding a worktree</p>
+<p>Switching between branches without repeatedly changing one working directory</p>
+<p>Removing a worktree</p>
+<p>Worktree limitations</p>
+<p>Avoiding duplicate worktree management mistakes</p>
+<h3>23.4 Large repositories</h3>
+<p>Large files and binary assets</p>
+<p>Why large files can slow cloning</p>
+<p>Git LFS fundamentals</p>
+<p>Ignoring generated assets</p>
+<p>Repository size management</p>
+<p>Shallow clones in CI</p>
+<p>Build artifacts versus source files</p>
+<p>Module 24. Advanced conflict resolution</p>
+<h3>24.1 Complex conflicts</h3>
+<p>Conflicts during merge</p>
+<p>Conflicts during rebase</p>
+<p>Conflicts during cherry-pick</p>
+<p>Rename conflicts</p>
+<p>Delete/modify conflicts</p>
+<p>File mode conflicts</p>
+<p>Binary file conflicts</p>
+<p>Multiple conflict regions</p>
+<p>Understanding the common ancestor</p>
+<h3>24.2 Advanced tools</h3>
+<p>git mergetool</p>
+<p>git diff --merge</p>
+<p>git diff --ours</p>
+<p>git diff --theirs</p>
+<p>git rerere (reuse recorded resolution)</p>
+<p>Three-way comparison tools</p>
+<p>VS Code merge editor</p>
+<p>Testing after conflict resolution</p>
+<h3>24.3 Team conflict-management practices</h3>
+<p>Communicating before overlapping changes</p>
+<p>Keeping feature branches current</p>
+<p>Breaking work into smaller pull requests</p>
+<p>Avoiding unrelated changes in a branch</p>
+<p>Documenting non-obvious conflict decisions</p>
+<h3>Level 7 — GitHub Actions and automation</h3>
+<p>Module 25. GitHub Actions fundamentals</p>
+<h3>25.1 Core concepts</h3>
+<p>What CI/CD means</p>
+<p>Workflows</p>
+<p>Workflow YAML</p>
+<p>Events and triggers</p>
+<p>Jobs</p>
+<p>Steps</p>
+<p>Runners</p>
+<p>Actions</p>
+<p>Artifacts</p>
+<p>Workflow logs</p>
+<p>Workflow permissions</p>
+<p>Secrets and variables</p>
+<h3>25.2 Common triggers</h3>
+<p>Push</p>
+<p>Pull request</p>
+<p>Manual execution using workflow_dispatch</p>
+<p>Scheduled workflows</p>
+<p>Release publication</p>
+<p>Issues and other GitHub events</p>
+<h3>25.3 Workflow syntax</h3>
+<p>.github/workflows/</p>
+<p>Workflow names</p>
+<p>on</p>
+<p>jobs</p>
+<p>runs-on</p>
+<p>steps</p>
+<p>uses</p>
+<p>run</p>
+<p>with</p>
+<p>env</p>
+<p>Job dependencies</p>
+<p>Conditional execution</p>
+<p>Matrix builds</p>
+<p>Reusable workflows</p>
+<p>Workflow concurrency</p>
+<h3>25.4 First CI workflow</h3>
+<p>Example: a basic Node.js workflow that installs dependencies and runs the project&#x27;s test script.</p>
+<p>name: Node.js CI</p>
+<p>on:</p>
+<p>push:</p>
+<p>branches: [main]</p>
+<p>pull_request:</p>
+<p>branches: [main]</p>
+<p>permissions:</p>
+<p>contents: read</p>
+<p>jobs:</p>
+<p>test:</p>
+<p>runs-on: ubuntu-latest</p>
+<p>steps:</p>
+<p>- name: Checkout repository</p>
+<p>uses: actions/checkout@v4</p>
+<p>- name: Set up Node.js</p>
+<p>uses: actions/setup-node@v4</p>
+<p>with:</p>
+<p>node-version: 22</p>
+<p>cache: npm</p>
+<p>- name: Install dependencies</p>
+<p>run: npm ci</p>
+<p>- name: Run tests</p>
+<p>run: npm test</p>
+<p>This is an instructional example. For production course material, use current supported action versions and the Node.js version selected for the project. The workflow also assumes that the repository has a valid lockfile and a working test script.</p>
+<p>Module 26. CI/CD pipelines</p>
+<h3>26.1 Continuous integration</h3>
+<p>Automatic linting</p>
+<p>Formatting checks</p>
+<p>Unit tests</p>
+<p>Integration tests</p>
+<p>Build verification</p>
+<p>Type checking</p>
+<p>Dependency auditing</p>
+<p>Pull request status checks</p>
+<p>Required checks before merge</p>
+<h3>26.2 Continuous delivery and deployment</h3>
+<p>Build artifacts</p>
+<p>Deployment environments</p>
+<p>Staging versus production</p>
+<p>Environment protection rules</p>
+<p>Approval requirements</p>
+<p>Deployment secrets</p>
+<p>Release-based deployment</p>
+<p>Rollback planning</p>
+<p>Smoke tests</p>
+<p>Deployment status reporting</p>
+<h3>26.3 Practical assignment</h3>
+<p>Create a workflow that runs tests on pull requests, blocks merging when required checks fail, and publishes a release artifact after a successful release process.</p>
+<p>Module 27. GitHub Actions security and optimization</p>
+<p>Least-privilege workflow permissions</p>
+<p>Pinning third-party actions to verified commit SHAs for stronger supply-chain control</p>
+<p>Avoiding untrusted input in shell commands</p>
+<p>Secrets versus ordinary variables</p>
+<p>Preventing secret exposure in logs</p>
+<p>Dependabot for dependency updates</p>
+<p>Avoiding unsafe pull_request_target patterns</p>
+<p>Protecting deployment credentials</p>
+<p>Reusable workflows</p>
+<p>Caching dependencies</p>
+<p>Matrix testing across versions</p>
+<p>Workflow concurrency and cancellation</p>
+<p>Monitoring failed workflows</p>
+<p>Cost and execution limits</p>
+<h3>Level 8 — GitHub security and open-source contribution</h3>
+<p>Module 28. Repository security</p>
+<h3>28.1 Account and repository security</h3>
+<p>Two-factor authentication</p>
+<p>Passkeys and recovery options</p>
+<p>Personal access token permissions</p>
+<p>SSH key management</p>
+<p>Organization access controls</p>
+<p>Repository visibility</p>
+<p>Branch protection rules</p>
+<p>Rulesets</p>
+<p>Required reviews</p>
+<p>Required status checks</p>
+<p>Signed commits as an optional integrity measure</p>
+<h3>28.2 Secret management</h3>
+<p>Recognizing secrets</p>
+<p>.env and configuration files</p>
+<p>GitHub secret scanning</p>
+<p>Push protection where available</p>
+<p>Removing credentials from the current working tree</p>
+<p>Revoking leaked credentials</p>
+<p>History rewriting for sensitive-data cleanup</p>
+<p>Coordinating history rewrites with collaborators</p>
+<p>Why rewriting history alone does not guarantee a leaked secret is safe</p>
+<h3>28.3 Dependency security</h3>
+<p>Dependency review</p>
+<p>Dependabot alerts</p>
+<p>Dependabot security updates</p>
+<p>Dependency lockfiles</p>
+<p>Vulnerability remediation</p>
+<p>Software supply-chain risks</p>
+<p>Reviewing third-party GitHub Actions</p>
+<p>Software bill of materials (SBOM) concepts</p>
+<p>License compatibility</p>
+<p>Module 29. Open-source contribution workflow</p>
+<h3>29.1 Finding projects</h3>
+<p>GitHub search</p>
+<p>Repository topics</p>
+<p>Labels such as good first issue</p>
+<p>help wanted issues</p>
+<p>Contribution guidelines</p>
+<p>Project activity</p>
+<p>License and code of conduct</p>
+<p>Selecting an appropriate beginner task</p>
+<h3>29.2 Making a contribution</h3>
+<p>Read the README and contribution guide.</p>
+<p>Find an appropriate issue or discuss a proposed change.</p>
+<p>Fork the repository if required.</p>
+<p>Clone your fork.</p>
+<p>Create a feature branch.</p>
+<p>Make a focused change.</p>
+<p>Run tests and checks.</p>
+<p>Commit with a clear message.</p>
+<p>Push the branch to your fork.</p>
+<p>Open a pull request.</p>
+<p>Respond to review feedback.</p>
+<p>Update the PR until it is accepted or closed.</p>
+<h3>29.3 Open-source etiquette</h3>
+<p>Avoid duplicate issues</p>
+<p>Explain the problem before proposing a solution</p>
+<p>Follow project conventions</p>
+<p>Keep contributions focused</p>
+<p>Respect maintainers&#x27; time</p>
+<p>Be professional in discussions</p>
+<p>Respect licenses and attribution</p>
+<p>Do not claim someone else&#x27;s work as your own</p>
+<p>Practical assignment</p>
+<p>Submit a documentation improvement or small code contribution to a suitable public repository. If an external PR is not accepted, students can still demonstrate the full workflow in a practice repository.</p>
+<h3>Level 9 — Professional GitHub portfolio and repository administration</h3>
+<p>Module 30. Professional repository standards</p>
+<h3>30.1 Repository documentation</h3>
+<p>Writing a clear README</p>
+<p>Adding a license</p>
+<p>Contribution guidelines</p>
+<p>Code of conduct</p>
+<p>Security policy</p>
+<p>Changelog</p>
+<p>Release notes</p>
+<p>Installation and setup instructions</p>
+<p>Configuration examples</p>
+<p>Architecture diagrams</p>
+<p>API documentation</p>
+<p>Troubleshooting section</p>
+<h3>30.2 Repository templates and conventions</h3>
+<p>Issue templates</p>
+<p>Pull request templates</p>
+<p>CONTRIBUTING.md</p>
+<p>CODE_OF_CONDUCT.md</p>
+<p>SECURITY.md</p>
+<p>CHANGELOG.md</p>
+<p>.github/ directory</p>
+<p>Commit message conventions</p>
+<p>Branch naming standards</p>
+<p>Code review checklist</p>
+<h3>30.3 GitHub Pages</h3>
+<p>What GitHub Pages is</p>
+<p>Publishing static websites</p>
+<p>Repository and user/organization sites</p>
+<p>Selecting the publishing source</p>
+<p>Custom domains</p>
+<p>HTTPS</p>
+<p>Build and deployment options</p>
+<p>Static-site limitations</p>
+<p>Why GitHub Pages is not a general-purpose Node.js backend host</p>
+<p>Avoiding accidental publication of sensitive files</p>
+<h3>30.4 GitHub Packages and container registry</h3>
+<p>Package registry concepts</p>
+<p>Publishing packages</p>
+<p>Package visibility and permissions</p>
+<p>Versioning</p>
+<p>Package documentation</p>
+<p>Container images</p>
+<p>GitHub Container Registry</p>
+<p>Basic image publishing through Actions</p>
+<p>Using packages in CI/CD</p>
+<p>Module 31. GitHub administration and collaboration at scale</p>
+<h3>31.1 Organizations and teams</h3>
+<p>Personal repositories versus organization repositories</p>
+<p>Organization membership</p>
+<p>Team creation</p>
+<p>Team permissions</p>
+<p>Repository access</p>
+<p>Outside collaborators</p>
+<p>Organization policies</p>
+<p>Access reviews</p>
+<p>Least-privilege administration</p>
+<h3>31.2 Repository governance</h3>
+<p>Branch protection</p>
+<p>Rulesets</p>
+<p>Required approvals</p>
+<p>CODEOWNERS</p>
+<p>Required checks</p>
+<p>Merge restrictions</p>
+<p>Signed commit requirements where appropriate</p>
+<p>Restricting force pushes</p>
+<p>Preventing branch deletion</p>
+<p>Repository archiving</p>
+<p>Transfer of repository ownership</p>
+<h3>31.3 GitHub Discussions and Wiki</h3>
+<p>When to use Issues versus Discussions</p>
+<p>Q&amp;A and community discussions</p>
+<p>Wiki pages</p>
+<p>Documentation ownership</p>
+<p>Knowledge sharing</p>
+<p>Moderation basics</p>
+<p>Keeping documentation current</p>
+<h3>31.4 Insights and repository analytics</h3>
+<p>Commit activity</p>
+<p>Contributors</p>
+<p>Traffic data where available</p>
+<p>Forks and stars</p>
+<p>Pull request metrics</p>
+<p>Issue activity</p>
+<p>Release cadence</p>
+<p>Code frequency</p>
+<p>Limitations of popularity metrics</p>
+<p>Measuring project health rather than vanity metrics</p>
+<h3>Level 10 — Git for different development careers</h3>
+<p>This module helps EDVENT students apply Git and GitHub to the specific field they are learning.</p>
+<p>Module 32. Git for frontend development</p>
+<p>Branching for UI features</p>
+<p>Tracking HTML, CSS, JavaScript, React, and Next.js code</p>
+<p>Managing assets</p>
+<p>.gitignore for frontend frameworks</p>
+<p>Lockfiles and reproducible installations</p>
+<p>Reviewing UI changes through PRs</p>
+<p>Screenshots and preview deployments</p>
+<p>Environment variables for frontend applications</p>
+<p>Keeping API keys out of browser-exposed code</p>
+<p>CI for linting, tests, and builds</p>
+<p>Managing generated build output</p>
+<p>Project: Develop an EDVENT website with feature branches, code reviews, a README, and a deployment workflow.</p>
+<p>Module 33. Git for backend development</p>
+<p>Managing Node.js and Express applications</p>
+<p>Tracking MongoDB schema and migration scripts</p>
+<p>.env.example versus .env</p>
+<p>Dependency lockfiles</p>
+<p>API tests</p>
+<p>Branches for endpoint development</p>
+<p>Pull requests for security-sensitive changes</p>
+<p>GitHub Actions for testing</p>
+<p>Deployment workflows</p>
+<p>Database migration considerations</p>
+<p>Secret rotation and incident response</p>
+<p>Project: Develop a REST API with branches for authentication, database integration, and testing. Require CI checks before merging.</p>
+<p>Module 34. Git for data analytics and Python</p>
+<p>Tracking Python scripts and notebooks</p>
+<p>Using .gitignore for virtual environments</p>
+<p>Managing requirements.txt or pyproject.toml</p>
+<p>Tracking data-cleaning scripts</p>
+<p>Keeping sensitive data out of repositories</p>
+<p>Handling large datasets</p>
+<p>Git LFS concepts</p>
+<p>Data versioning concepts and tools</p>
+<p>Notebook diffs and review limitations</p>
+<p>Tracking SQL queries and dashboard documentation</p>
+<p>Reproducibility and project READMEs</p>
+<p>Project: Publish a data analytics project with documented datasets, cleaning scripts, requirements, and reproducible steps.</p>
+<p>Practical projects and assessments</p>
+<p>Students should demonstrate skills through progressively harder tasks.</p>
+<p>Project 1 — Personal portfolio repository</p>
+<p>Beginner</p>
+<p>Create a repository, commit HTML/CSS files, maintain a README, publish a static site, and practise recovering a deleted file.</p>
+<p>Project 2 — Branching and merge-conflict lab</p>
+<p>Beginner–Intermediate</p>
+<p>Simulate two developers changing the same files, resolve conflicts, inspect history, and merge the changes safely.</p>
+<p>Project 3 — Collaborative web application</p>
+<p>Intermediate</p>
+<p>Use separate feature branches, GitHub Issues, pull requests, code reviews, labels, and required CI checks.</p>
+<p>Project 4 — Automated testing pipeline</p>
+<p>Intermediate–Advanced</p>
+<p>Configure GitHub Actions to install dependencies, run tests, check code quality, and report failed builds.</p>
+<p>Project 5 — Professional GitHub portfolio</p>
+<p>Final assessment</p>
+<p>Publish three polished repositories, create tagged releases, document setup instructions, configure security features, and demonstrate a collaborative workflow.</p>
+<p>Final assessment rubric</p>
+<div class="table-scroll"><table>
+<tr>
+<th>Assessment area</th>
+<th>Weight</th>
+</tr>
+<tr>
+<td>Git commands and repository fundamentals</td>
+<td>15%</td>
+</tr>
+<tr>
+<td>Staging, commits, and history</td>
+<td>10%</td>
+</tr>
+<tr>
+<td>Branching, merging, and conflict resolution</td>
+<td>15%</td>
+</tr>
+<tr>
+<td>GitHub repositories and remotes</td>
+<td>10%</td>
+</tr>
+<tr>
+<td>Pull requests and collaboration</td>
+<td>15%</td>
+</tr>
+<tr>
+<td>Recovery and advanced Git operations</td>
+<td>10%</td>
+</tr>
+<tr>
+<td>GitHub Actions and security</td>
+<td>10%</td>
+</tr>
+<tr>
+<td>Documentation and final project</td>
+<td>15%</td>
+</tr>
+<tr>
+<td>Total</td>
+<td>100%</td>
+</tr>
+</table></div>
+<p>Recommended pass standard: 70%, with practical demonstrations required for conflict resolution, safe recovery, pull requests, and repository security.</p>
+<p>Recommended 10-week learning roadmap</p>
+<p>For EDVENT, use this sequence so that students master the fundamentals before moving into advanced commands and GitHub automation.</p>
+<p>Week 1</p>
+<p>Version control and setup</p>
+<p>Version-control concepts, terminal basics, installation, Git configuration, repository initialization.</p>
+<p>Deliverable: Create the first local repository.</p>
+<p>Week 2</p>
+<p>Staging and commits</p>
+<p>Working tree, staging, commits, diffs, history, `.gitignore`, commit messages.</p>
+<p>Deliverable: Build a project with meaningful commit history.</p>
+<p>Week 3</p>
+<p>Branches and merges</p>
+<p>Branch creation, switching, merging, fast-forward and three-way merges, conflict resolution.</p>
+<p>Deliverable: Complete a branching and conflict lab.</p>
+<p>Week 4</p>
+<p>GitHub fundamentals</p>
+<p>Account security, repositories, remotes, clone, push, pull, fetch, README and Markdown.</p>
+<p>Deliverable: Publish a documented project.</p>
+<p>Week 5</p>
+<p>Collaboration</p>
+<p>Forks, upstream, pull requests, reviews, Issues, Projects, GitHub Flow.</p>
+<p>Deliverable: Complete a collaborative pull request.</p>
+<p>Week 6</p>
+<p>Recovery and advanced Git</p>
+<p>Restore, reset, revert, stash, reflog, cherry-pick, rebase, tags.</p>
+<p>Deliverable: Recover from deliberately introduced mistakes.</p>
+<p>Week 7</p>
+<p>Professional workflow</p>
+<p>Branching strategies, releases, changelogs, repository standards, code review.</p>
+<p>Deliverable: Prepare a versioned release.</p>
+<p>Week 8</p>
+<p>GitHub Actions</p>
+<p>YAML, workflows, runners, CI, automated tests, secrets and workflow permissions.</p>
+<p>Deliverable: Automate checks on pull requests.</p>
+<p>Week 9</p>
+<p>Security and advanced GitHub</p>
+<p>Branch protection, rulesets, dependency security, open-source contribution, organization permissions.</p>
+<p>Deliverable: Harden a practice repository.</p>
+<p>Week 10</p>
+<p>Portfolio and final assessment</p>
+<p>End-to-end collaborative workflow, documentation, release, testing, presentation.</p>
+<p>Deliverable: Submit the final GitHub portfolio.</p>
+<p>Daily practice routine</p>
+<p>For a 60–90 minute session:</p>
+<p>15 minutes: Review previously learned commands.</p>
+<p>20 minutes: Learn one new concept.</p>
+<p>30–40 minutes: Perform hands-on exercises.</p>
+<p>10 minutes: Explain what happened and document mistakes.</p>
+<p>Do not make students memorize every command. Make them predict what a command will do, inspect the repository state, execute it, and verify the result.</p>
+<p>Interactive student mastery checklist</p>
+<p>Git and GitHub progress</p>
+<p>0 of 29 skills mastered</p>
+<p>0%</p>
+<p>Foundation</p>
+<p>Explain Git versus GitHub</p>
+<p>Use terminal navigation commands</p>
+<p>Install and configure Git</p>
+<p>Create and clone repositories</p>
+<p>Core Git</p>
+<p>Understand working tree, staging area, and commits</p>
+<p>Stage selected changes and review diffs</p>
+<p>Write meaningful commit messages</p>
+<p>Configure .gitignore correctly</p>
+<p>Inspect and compare repository history</p>
+<p>Branches</p>
+<p>Create and switch branches</p>
+<p>Merge branches</p>
+<p>Resolve merge conflicts</p>
+<p>Explain merge versus rebase</p>
+<p>Use stash, revert, reset, and reflog safely</p>
+<p>GitHub</p>
+<p>Create and publish repositories</p>
+<p>Configure remotes and synchronize branches</p>
+<p>Fork and contribute through a pull request</p>
+<p>Review code and respond to feedback</p>
+<p>Use Issues, Projects, and Markdown</p>
+<p>Advanced workflow</p>
+<p>Use tags and create releases</p>
+<p>Use cherry-pick and interactive rebase</p>
+<p>Explain Git internals at a basic level</p>
+<p>Set up GitHub Actions CI</p>
+<p>Configure repository rules and security</p>
+<p>Portfolio</p>
+<p>Publish a professional README</p>
+<p>Maintain a clean commit history</p>
+<p>Demonstrate a collaborative workflow</p>
+<p>Complete a project with automated checks</p>
+<p>Explain and demonstrate recovery from mistakes</p>
+<p>Copy checklistReset</p>
+<p>Mark a skill complete only after demonstrating it in a repository, not just watching a tutorial.</p>
+<p>Official resources</p>
+<p>Git documentation</p>
+<p>Official Git reference</p>
+<p>Pro Git book — free online</p>
+<p>GitHub learning</p>
+<p>GitHub Docs</p>
+<p>GitHub Skills interactive courses</p>
+<p>Automation</p>
+<p>GitHub Actions documentation</p>
+<p>Security</p>
+<p>GitHub security documentation</p>
+<p>Final recommendation</p>
+<p>For EDVENT&#x27;s students, make Git fundamentals and collaborative GitHub workflows compulsory before students begin serious React, Node.js, or data analytics projects. Teach advanced Git internals, interactive rebase, submodules, and complex CI/CD only after students can confidently create branches, commit changes, resolve conflicts, open pull requests, and recover from mistakes.</p>
+<p>The course is successful when students can independently contribute to a shared repository and explain exactly how their changes move from a local working directory to a reviewed, tested, and released project.</p></article></div></div></section><section class="final-cta"><div class="container final-cta-inner"><div><div class="eyebrow">LEARN · BUILD · GROW</div><h2>Want to learn Git &amp; GitHub?</h2><p>Ask EDVENT about batch availability, fees and learning options.</p></div><a class="btn btn-primary" href="../index.html#admissions" data-course="Git &amp; GitHub">Enquire now ↗</a></div></section></main><footer class="site-footer"><div class="container footer-bottom"><span>© <span id="current-year"></span> EDVENT. All rights reserved.</span><span>Learn • Build • Grow</span></div></footer><a class="floating-whatsapp" href="#" data-whatsapp data-message="Hi EDVENT! I would like to enquire about Git &amp; GitHub." aria-label="Chat with EDVENT on WhatsApp"><span>◉</span><span>Chat with us</span></a></body></html>
